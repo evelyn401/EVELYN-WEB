@@ -1,0 +1,76 @@
+// SCSS 重點一：變數
+// SCSS 重點二：巢狀寫法
+// SCSS 重點三：繼承（extend），合併一模一樣的樣式內容;無法使用個別檔案後連結;自適應版本有無法同時使用一個設定
+// SCSS 重點四：混合（mixins），將經常被重複使用的程式碼獨立撰寫，並且可以帶入參數;需要時再 @include 呼叫使用
+// SCSS 重點五：Mixin（若設計時使用函數或變數時）無法使用＠import 匯入，因被歸類在「模組」之內，故需用@use讀取
+
+// 1.標籤選取器 ；2.子孫選取器（例如：header h1）;3.子（指）選取器（例：header >nav）
+
+//設計 手機版 樣式，使用media媒體判斷;1.讀取 變數檔案 2.讀取 媒體判斷檔
+@use "../_01joint/_03variable" as Var;
+@use "../_01joint/_mixin/_01media" as Rwd;
+
+@include Rwd.Rwd(xs){
+    header{
+        // 高度 (用內間距padding取代高度)固定單位 px
+        padding: 30px 0 30px 0;
+        background-color: Var.$Blue;
+
+        // 標籤與標籤之間的對齊方式，利用 彈性布局 flex 排版;寫在要對齊的父標籤之內
+        // 顯示方式：彈性布局 flex 排版
+        display: flex;
+        // 對齊方式：垂直
+        align-items: center;
+        // 對其方式：水平均分
+        justify-content: space-between;
+
+        // $h1width: 40%;
+        // $divwidth: calc(100% - $h1width);
+
+        >h1{
+            // 寬度
+            // width:  $h1width;
+            // 文字顏色
+            // color: Var.$White01;
+            // 文字尺寸 可用的尺寸單位 px（固定值）、rem（相對值）
+            // font-size: 16px;
+            // 文字對其方式：置中
+            // text-align: center;
+            
+            >div{
+                >img{
+                // 左邊內間距增加（往右邊移動）
+                padding-left: 15px;
+                // 設定 logo 圖片大小
+                width: 100px;   // 可以調整這個數值
+                height: auto;  // 保持比例
+                }
+                
+            }
+        }
+
+        >nav{
+            // 顯示方式：隱藏
+            display: none;
+        }
+
+        >div{
+            // 寬度
+            // width:  $divwidth;
+            // 背景
+            // background-color: Var.$Blue03;
+            // 按鈕圖片移至最右邊
+            display: flex;
+            // 水平對齊方式：置右（結尾）
+            justify-content: flex-end;
+
+            >img{
+                // 右邊內間距減少（往左邊移動）
+                padding-right: 20px;
+                // 設定圖片大小
+                width: 40px;   // 可以調整這個數值
+                height: auto;  // 保持比例
+            }
+        }
+    }
+};

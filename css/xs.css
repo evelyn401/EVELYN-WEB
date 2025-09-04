@@ -1,0 +1,8 @@
+/*媒體判斷 media 指定網頁用screen ; 寬度小於575px 適用此格式*/
+@media screen and (max-width: 575px) {
+  /* 標籤選擇器 */
+body{
+    /* 背景顏色 */
+    background-color: rgb(107, 148, 160);
+}
+}

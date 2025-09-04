@@ -1,0 +1,49 @@
+// SCSS 重點一：變數
+// SCSS 重點二：巢狀寫法
+// SCSS 重點三：繼承（extend），合併一模一樣的樣式內容;無法使用個別檔案後連結;自適應版本有無法同時使用一個設定
+// SCSS 重點四：混合（mixins），將經常被重複使用的程式碼獨立撰寫，並且可以帶入參數;需要時再 @include 呼叫使用
+
+// 媒體判斷 media
+// 1.標籤選取器 ；2.子孫選取器（例如：header h1）
+
+@media screen and (max-width: 375px){
+    // 繼承（共用）樣式
+    %Box_Width{
+        @include AllWidth(10, 15, 1px);
+    }
+    header{
+    // 背景顏色
+    background-color: $Blue;
+
+    h1 {
+        // 文字顏色
+        color:White;
+        // 背景顏色
+        background-color: rgb(68, 136, 108);
+        // 寬度：呼叫Mixin
+        //@include AllWidth(10, 15, 1px);
+        @extend %Box_Width;
+    }
+    nav{
+        // 背景顏色
+        background-color: olive;
+        // 寬度：呼叫Mixin
+        //@include AllWidth(10, 15, 1px);
+        @extend %Box_Width;
+    }
+}
+}
+@media screen and (min-width: 1400px){
+    header{
+    // 背景顏色
+    background-color: $Blue02;
+    h1 {
+        // 文字顏色
+        color:White;
+        // 背景顏色
+        background-color: rgb(68, 136, 108);
+        // 寬度：呼叫Mixin
+        @include AllWidth(10, 20, 1px);
+    }
+}
+}

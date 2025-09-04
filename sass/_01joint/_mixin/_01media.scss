@@ -1,0 +1,52 @@
+// 判斷 裝置尺寸，利用最大寬度作為基準 @if...@else if...@else
+@use "../03variable" as Var;
+
+@mixin Rwd($width){
+    @if $width == xs {
+        // 確保最小寬度 375px 
+        @media screen and (min-width: Var.$xs){
+            // 匯入撰寫內容
+            @content;
+        }
+    }
+
+    @else if $width == sm {
+        // 確保最小寬度 576px 576px以上判讀
+        @media screen and (min-width: Var.$sm){
+            // 匯入撰寫內容
+            @content;
+        }
+    }
+
+    @else if $width == md {
+        // 確保最小寬度 768px 768px以上判讀
+        @media screen and (min-width: Var.$md){
+            // 匯入撰寫內容
+            @content;
+        }
+    }
+
+    @else if $width == lg {
+        // 確保最小寬度 992px 992px以上判讀
+        @media screen and (min-width: Var.$lg){
+            // 匯入撰寫內容
+            @content;
+        }
+    }
+
+    @else if $width == xl {
+        // 確保最小寬度 1200px 1200px以上判讀
+        @media screen and (min-width: Var.$xl){
+            // 匯入撰寫內容
+            @content;
+        }
+    }
+
+    @else {
+        // 確保最小寬度 1400px 1400px以上判讀
+        @media screen and (min-width: Var.$xxl){
+            // 匯入撰寫內容
+            @content;
+        }
+    }
+}
