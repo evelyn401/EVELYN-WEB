@@ -18,9 +18,9 @@
             >div{
                 >img{
                     // 左邊內間距增加（往右邊移動）
-                    padding-left: 60px;
+                    padding-left: 40px;
                     // 設定 logo 圖片大小
-                    width: 150px;   // 可以調整這個數值
+                    width: 120px;   // 可以調整這個數值
                     height: auto;  // 保持比例
                 }
             }
@@ -43,7 +43,7 @@
 
             a{
             // 超連結文字顏色
-            color: Var.$White01;
+            color: Var.$Blue;
             // 取消超連結底線
             text-decoration: none;
             // 設定字距

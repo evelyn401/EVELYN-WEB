@@ -14,7 +14,7 @@
     header{
         // 高度 (用內間距padding取代高度)固定單位 px
         padding: 30px 0 30px 0;
-        background-color: Var.$Blue;
+        background-color: Var.$White01;
 
         // 標籤與標籤之間的對齊方式，利用 彈性布局 flex 排版;寫在要對齊的父標籤之內
         // 顯示方式：彈性布局 flex 排版
@@ -40,7 +40,7 @@
             >div{
                 >img{
                 // 左邊內間距增加（往右邊移動）
-                padding-left: 15px;
+                padding-left: 20px;
                 // 設定 logo 圖片大小
                 width: 100px;   // 可以調整這個數值
                 height: auto;  // 保持比例
@@ -66,7 +66,7 @@
 
             >img{
                 // 右邊內間距減少（往左邊移動）
-                padding-right: 20px;
+                padding-right: 25px;
                 // 設定圖片大小
                 width: 40px;   // 可以調整這個數值
                 height: auto;  // 保持比例
