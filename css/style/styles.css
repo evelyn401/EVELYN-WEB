@@ -149,15 +149,43 @@ table {
   }
   #AboutEvelyn .titlebox h2 {
     color: #F2F2F2;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     font-weight: bold;
     padding: 15px 0;
   }
-  #AboutEvelyn .titlebox .line {
+  #AboutEvelyn .line {
     height: 2px;
     width: 50px;
     margin: 0 auto;
     border-bottom: 3px solid #F2F2F2;
+  }
+}
+@media screen and (min-width: 768px) {
+  #AboutEvelyn {
+    background-color: #9da9b5;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  #AboutEvelyn .titlebox h2 {
+    color: #F2F2F2;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+  }
+  #AboutEvelyn .line {
+    height: 2px;
+    width: 60px;
+    margin: 0 auto;
+    border-bottom: 3px solid #F2F2F2;
+  }
+  #AboutEvelyn .content {
+    display: flex;
+    padding-top: 30px;
+  }
+  #AboutEvelyn .content div {
+    width: 50%;
+    text-align: center;
   }
 }
