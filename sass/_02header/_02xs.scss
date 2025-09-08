@@ -14,7 +14,7 @@
 @include Rwd.Rwd(xs){
     header{
         // 高度 (用內間距padding取代高度)固定單位 px
-        padding: 30px 0 30px 0;
+        padding: 20px 0 20px 0;
         background-color: Var.$White01;
 
         // 標籤與標籤之間的對齊方式，利用 彈性布局 flex 排版;寫在要對齊的父標籤之內
