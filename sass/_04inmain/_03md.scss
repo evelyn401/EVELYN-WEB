@@ -1,10 +1,14 @@
 @use "../_01joint/_mixin/_01media" as Rwd;
 @use "../_01joint/_03variable" as Var;
 
-@include Rwd.Rwd(xs){
+@include Rwd.Rwd(md){
     #AboutEvelyn{
         // 背景顏色
         background-color: Var.$Blue03;
+        // 內間距（上）
+        padding-top: 60px;
+        // 內間距（下）
+        padding-bottom: 30px;
 
         .titlebox{
 
@@ -12,7 +16,7 @@
                 // 文字顏色
                 color: Var.$White01;
                 // 文字尺寸
-                font-size: 16px;
+                font-size: 24px;
                 // 文字對齊(置中)
                 text-align: center;
                 // 文字粗細
@@ -25,11 +29,25 @@
             // 高度
             height: 2px;
             // 寬度
-            width: 50px;
+            width: 60px;
             // 外邊界（設定置中）上下為0 左右自動
             margin: 0 auto;
             // 設定下邊框線條：線條粗細 線條樣式 線條顏色
             border-bottom: 3px solid Var.$White01;
+        }
+
+        .content{
+            // 彈性佈局
+            display: flex;
+            // 內間距（上）
+            padding-top: 30px;
+
+            div{
+                // 佔據寬度50%
+                width: 50%;
+                // 置中對齊
+                text-align: center;
+            }
         }
     }
 }
