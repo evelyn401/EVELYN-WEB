@@ -1,0 +1,36 @@
+// 1.標籤選取器 ；2.子孫選取器（例如：header h1）;3.子（指）選取器（例：header >nav）
+// 4.類別選取器 class ；5.ID選取器
+
+@use "../_01joint/_mixin/_01media" as Rwd;
+
+@include Rwd.Rwd(xs){
+    footer{
+        // 背景圖片
+        background-image: url(../../images/background/footer01.jpg);
+        // 背景顏色
+        background-color: burlywood;
+        ul{
+            // 利用padding 來調整高度
+            padding: 20px 0;
+
+            li{
+                // 文字對齊(置中)
+                text-align: center;
+            }
+            .CR01{
+                // 文字尺寸
+                font-size: 12px;
+                // 文字顏色
+                color: white;
+                // 外間距（下方）推開兩行距離
+                margin-bottom: 5px;
+            }
+            .CR02{
+                // 文字尺寸
+                font-size: 13px;
+                // 文字顏色
+                color: white;
+            }
+        }
+    }
+}
