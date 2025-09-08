@@ -55,7 +55,11 @@ table {
 @media screen and (min-width: 375px) {
   header {
     padding: 30px 0 30px 0;
+<<<<<<< HEAD
     background-color: #F2F2F2;
+=======
+    background-color: #4a5a6a;
+>>>>>>> ab823c5d1e89e02b458593ff447024b1e5e89583
     display: flex;
     align-items: center;
     justify-content: space-between;
