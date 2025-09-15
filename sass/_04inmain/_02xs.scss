@@ -18,7 +18,7 @@
         // 文字對齊(置中)
         text-align: center;
         // 文字尺寸
-        font-size: 16px;
+        font-size: 18px;
         // 文字粗細
         font-weight: bold;
         // 內間距
@@ -34,6 +34,11 @@
         margin: 0 auto;
         // 下邊框線寬度樣式
         border-bottom: 3px solid;
+    }
+
+    %Width100{
+        // 寬度100%
+        width: 100%;
     }
 
 #AboutEvelyn{
@@ -95,23 +100,76 @@
     }
         .card{
             // 寬度
-            width: 300px;
+            width: 200px;
             // 利用padding設定內間距 上下 取高度
-            padding: 40px;
+            padding: 20px;
             // 背景顏色
             background-color: Var.$White01;
             // 讓物件在畫面正中間
             margin: 0 auto;
+            // 導圓角
+            border-radius: 10px;
+            // 陰影
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
         .cardcontent{
             // 寬度
             width: 95%;
             //背景顏色
-            background-color: Var.$Blue05;
+            // background-color: Var.$Blue05;
             // 置中對齊
             margin: 0 auto;
+            // 彈性佈局
+            display: flex;
+            // 水平垂直置中
+            justify-content: center;
+            align-items: center;
+            // 換行
+            flex-wrap: wrap;
+        }
+
+        .imagebox{
+            @extend %Width100;
+            // 彈性佈局
+            display: flex;
+            // 水平垂直置中
+            justify-content: center;
+            align-items: center;
+
+            img{
+                // 圖片尺寸
+                width: 60%;
+            }
+        }
+
+        h3{
+            @extend %Width100;
+            // 文字置中
+            text-align: center;
+            // 文字尺寸
+            font-size: 16px;
+            // 文字粗細
+            font-weight: bold;
+            // 文字顏色
+            color: Var.$Blue02;
+        }
+
+        p{
+            @extend %Width100;
+            // 外間距 padding
+            padding: 15px 10px 15px 15px;
+            // 文字顏色
+            color: Var.$Blue03;
+            // 文字行高
+            line-height: 1.5;
+            // 文字大小
+            font-size: 14px;
+            // 文字置中
+            text-align: center;
         }
     }
 }
+
 #Work{
         // 呼叫繼承樣式
         @extend %BoxPaddingxs;

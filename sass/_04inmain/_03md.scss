@@ -104,12 +104,13 @@
             // 寬度
             width: 95%;
             //背景顏色
-            background-color: Var.$Blue05;
+            //background-color: Var.$Blue05;
             // 置中對齊
             margin: 0 auto;
         }
     }
 }
+
 #Work{
         // 呼叫繼承樣式
         @extend %BoxPaddingmd;

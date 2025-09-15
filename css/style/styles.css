@@ -150,7 +150,7 @@ table {
   }
   #Contact .titlebox h2, #Work .titlebox h2, #Skills .titlebox h2, #AboutEvelyn .titlebox h2 {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     padding: 15px 0;
   }
@@ -159,6 +159,9 @@ table {
     width: 50px;
     margin: 0 auto;
     border-bottom: 3px solid;
+  }
+  #Skills .card p, #Skills .card h3, #Skills .card .imagebox {
+    width: 100%;
   }
   #AboutEvelyn {
     background-color: #9da9b5;
@@ -190,15 +193,41 @@ table {
     border-bottom-color: #6e7f91;
   }
   #Skills .card {
-    width: 300px;
-    padding: 40px;
+    width: 200px;
+    padding: 20px;
     background-color: #F2F2F2;
     margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   #Skills .card .cardcontent {
     width: 95%;
-    background-color: #c0d6df;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #Skills .card .imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Skills .card .imagebox img {
+    width: 60%;
+  }
+  #Skills .card h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6e7f91;
+  }
+  #Skills .card p {
+    padding: 15px 10px 15px 15px;
+    color: #9da9b5;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
   }
   #Work {
     background-image: url(../../images/background/work01.jpg);
@@ -278,7 +307,6 @@ table {
   }
   #Skills .card .cardcontent {
     width: 95%;
-    background-color: #c0d6df;
     margin: 0 auto;
   }
   #Work {
