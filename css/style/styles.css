@@ -144,41 +144,96 @@ table {
   }
 }
 @media screen and (min-width: 375px) {
-  #AboutEvelyn {
-    background-color: #9da9b5;
+  #Contact, #Work, #Skills, #AboutEvelyn {
+    padding-top: 30px;
+    padding-bottom: 15px;
   }
-  #AboutEvelyn .titlebox h2 {
-    color: #F2F2F2;
-    font-size: 16px;
+  #Contact .titlebox h2, #Work .titlebox h2, #Skills .titlebox h2, #AboutEvelyn .titlebox h2 {
     text-align: center;
+    font-size: 16px;
     font-weight: bold;
     padding: 15px 0;
   }
-  #AboutEvelyn .line {
+  #Contact .line, #Work .line, #Skills .line, #AboutEvelyn .line {
     height: 2px;
     width: 50px;
     margin: 0 auto;
-    border-bottom: 3px solid #F2F2F2;
+    border-bottom: 3px solid;
   }
-}
-@media screen and (min-width: 768px) {
   #AboutEvelyn {
     background-color: #9da9b5;
-    padding-top: 60px;
-    padding-bottom: 30px;
   }
   #AboutEvelyn .titlebox h2 {
     color: #F2F2F2;
+  }
+  #AboutEvelyn .line {
+    border-bottom-color: #F2F2F2;
+  }
+  #AboutEvelyn .content {
+    padding-top: 50px;
+  }
+  #AboutEvelyn .content div {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  #Skills {
+    background-color: #EAEAEA;
+  }
+  #Skills .titlebox h2 {
+    color: #6e7f91;
+  }
+  #Skills .line {
+    border-bottom-color: #6e7f91;
+  }
+  #Work {
+    background-image: url(../../images/background/work01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  #Work .titlebox h2 {
+    color: #EAEAEA;
+  }
+  #Work .line {
+    border-bottom-color: #EAEAEA;
+  }
+  #Contact {
+    background-color: #EAEAEA;
+  }
+  #Contact .titlebox h2 {
+    color: #6e7f91;
+  }
+  #Contact .line {
+    border-bottom-color: #6e7f91;
+  }
+}
+@media screen and (min-width: 768px) {
+  #Contact, #Work, #Skills, #AboutEvelyn {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  #Contact .titlebox h2, #Work .titlebox h2, #Skills .titlebox h2, #AboutEvelyn .titlebox h2 {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
     padding: 15px 0;
   }
-  #AboutEvelyn .line {
+  #Contact .line, #Work .line, #Skills .line, #AboutEvelyn .line {
     height: 2px;
     width: 60px;
     margin: 0 auto;
-    border-bottom: 3px solid #F2F2F2;
+    border-bottom: 4px solid;
+  }
+  #AboutEvelyn {
+    background-color: #9da9b5;
+  }
+  #AboutEvelyn .titlebox h2 {
+    color: #F2F2F2;
+  }
+  #AboutEvelyn .line {
+    border-bottom-color: #F2F2F2;
   }
   #AboutEvelyn .content {
     display: flex;
@@ -187,5 +242,36 @@ table {
   #AboutEvelyn .content div {
     width: 50%;
     text-align: center;
+  }
+  #Skills {
+    background-color: #EAEAEA;
+  }
+  #Skills .titlebox h2 {
+    color: #6e7f91;
+  }
+  #Skills .line {
+    border-bottom-color: #6e7f91;
+  }
+  #Work {
+    background-image: url(../../images/background/work01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  #Work .titlebox h2 {
+    color: #EAEAEA;
+  }
+  #Work .line {
+    border-bottom-color: #EAEAEA;
+  }
+  #Contact {
+    background-color: #EAEAEA;
+  }
+  #Contact .titlebox h2 {
+    color: #6e7f91;
+  }
+  #Contact .line {
+    border-bottom-color: #6e7f91;
   }
 }

@@ -2,34 +2,145 @@
 @use "../_01joint/_03variable" as Var;
 
 @include Rwd.Rwd(xs){
+
+    // 共用繼承可用兩種方式表達：1.複數樣式-寫繼承（來源％開頭，使用@extend呼叫） 
+    // 2.單一樣式-可寫變數（判斷是否為最大共用設定）或是繼承（只是目前區塊使用）
+
+    // 繼承（共用）樣式
+    %BoxPaddingxs{
+        // 內間距（上）
+        padding-top: 30px;
+        // 內間距（下）
+        padding-bottom: 15px;
+    }
+
+    %BoxTextxs{
+        // 文字對齊(置中)
+        text-align: center;
+        // 文字尺寸
+        font-size: 16px;
+        // 文字粗細
+        font-weight: bold;
+        // 內間距
+        padding: 15px 0;
+    }
+
+    %linexs{
+        // 高度
+        height: 2px;
+        // 寬度
+        width: 50px;
+        // 外邊界（設定置中）上下為0 左右自動
+        margin: 0 auto;
+        // 下邊框線寬度樣式
+        border-bottom: 3px solid;
+    }
     #AboutEvelyn{
         // 背景顏色
         background-color: Var.$Blue03;
+        // 呼叫繼承樣式
+        @extend %BoxPaddingxs;
 
         .titlebox{
 
-            h2{
-                // 文字顏色
-                color: Var.$White01;
-                // 文字尺寸
-                font-size: 16px;
-                // 文字對齊(置中)
-                text-align: center;
-                // 文字粗細
-                font-weight: bold;
-                // 內間距
-                padding: 15px 0;
-            }
-        }
-        .line{
-            // 高度
-            height: 2px;
-            // 寬度
-            width: 50px;
-            // 外邊界（設定置中）上下為0 左右自動
-            margin: 0 auto;
-            // 設定下邊框線條：線條粗細 線條樣式 線條顏色
-            border-bottom: 3px solid Var.$White01;
+        h2{
+        // 文字顏色
+        color: Var.$White01;
+        // 呼叫繼承樣式
+        @extend %BoxTextxs;
         }
     }
+        .line{
+            // 下邊框線條顏色
+            border-bottom-color: Var.$White01;
+            @extend %linexs;
+        }
+        .content{
+            // 內間距（上）
+            padding-top: 50px;
+
+            div{
+                // 佔據寬度100%
+                width: 100%;
+                // 置中對齊
+                text-align: center;
+                // 內間距（下）
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+    #Skills{
+        // 背景顏色
+        background-color: Var.$White02;
+        // 呼叫繼承樣式
+        @extend %BoxPaddingxs;
+
+        .titlebox{
+        h2{
+        // 文字顏色
+        color: Var.$Blue02;
+        // 呼叫繼承樣式
+        @extend %BoxTextxs;
+        }
+    }
+    .line{
+        // 下邊框線條顏色
+        border-bottom-color: Var.$Blue02;
+        // 呼叫繼承樣式
+        @extend %linexs;
+    }
+}
+
+    #Work{
+        // 呼叫繼承樣式
+        @extend %BoxPaddingxs;
+        // 背景圖片
+        background-image: url(../../images/background/work01.jpg);
+        // 背景不重複
+        background-repeat: no-repeat;
+        // 背景尺寸
+        background-size: cover;
+        // 背景對齊方式
+        background-position: center;
+        // 背景固定不隨畫面捲動
+        background-attachment: fixed;
+
+        .titlebox{
+        h2{
+        // 文字顏色
+        color: Var.$White02;
+        // 呼叫繼承樣式
+        @extend %BoxTextxs;
+        }
+        }
+        .line{
+        // 下邊框線條顏色
+        border-bottom-color: Var.$White02;
+        // 呼叫繼承樣式
+        @extend %linexs;
+        }
+    }
+
+    #Contact{
+        // 背景顏色
+        background-color: Var.$White02;
+        // 呼叫繼承樣式
+        @extend %BoxPaddingxs;
+
+        .titlebox{
+
+        h2{
+        // 文字顏色
+        color: Var.$Blue02;
+        // 呼叫繼承樣式
+        @extend %BoxTextxs;
+        }
+    }
+        .line{
+        // 下邊框線條顏色
+        border-bottom-color: Var.$Blue02;
+        @extend %linexs;
+        }
+}
 }
