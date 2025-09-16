@@ -156,8 +156,10 @@
 
         p{
             @extend %Width100;
-            // 外間距 padding
-            padding: 15px 10px 15px 15px;
+            // 外間距上
+            margin-top: 10px;
+            // 文字切齊：左右切齊，尾行靠左
+            text-align: justify;
             // 文字顏色
             color: Var.$Blue03;
             // 文字行高
@@ -166,6 +168,21 @@
             font-size: 14px;
             // 文字置中
             text-align: center;
+            // 字母間距
+            letter-spacing: 0.5px;
+
+            // 文字多出部分需隱藏，以省略號表示
+            // 需用 瀏覽器相容性 的樣式撰寫
+            // 建立一個彈性內容
+            display: -webkit-box;
+            // 設定彈性內容的排列方向（垂直）
+            -webkit-box-orient: vertical;
+            // 限制顯示的行數（4行）
+            -webkit-line-clamp: 3;
+            // 超出部分隱藏
+            overflow: hidden;
+            // 超出部分以省略號表示
+            text-overflow: ellipsis;
         }
     }
 }

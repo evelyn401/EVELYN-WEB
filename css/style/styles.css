@@ -223,11 +223,18 @@ table {
     color: #6e7f91;
   }
   #Skills .card p {
-    padding: 15px 10px 15px 15px;
+    margin-top: 10px;
+    text-align: justify;
     color: #9da9b5;
     line-height: 1.5;
     font-size: 14px;
     text-align: center;
+    letter-spacing: 0.5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   #Work {
     background-image: url(../../images/background/work01.jpg);
