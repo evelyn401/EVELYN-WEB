@@ -198,7 +198,7 @@ table {
     background-color: #F2F2F2;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
   }
   #Skills .card .cardcontent {
     width: 95%;
@@ -234,6 +234,7 @@ table {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
   }
