@@ -1,4 +1,5 @@
 @use "../_01joint/_mixin/_01media" as Rwd;
+@use "../_01joint/_mixin/_02card" as Card;
 @use "../_01joint/_03variable" as Var;
 
 @include Rwd.Rwd(xs){
@@ -98,95 +99,7 @@
         // 呼叫繼承樣式
         @extend %linexs;
     }
-        .card{
-            // 寬度
-            width: 200px;
-            // 利用padding設定內間距 上下 取高度
-            padding: 20px;
-            // 背景顏色
-            background-color: Var.$White01;
-            // 讓物件在畫面正中間
-            margin: 0 auto;
-            // 導圓角
-            border-radius: 10px;
-            // 陰影
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-
-        .cardcontent{
-            // 寬度
-            width: 95%;
-            //背景顏色
-            // background-color: Var.$Blue05;
-            // 置中對齊
-            margin: 0 auto;
-            // 彈性佈局
-            display: flex;
-            // 水平垂直置中
-            justify-content: center;
-            align-items: center;
-            // 換行
-            flex-wrap: wrap;
-        }
-
-        .imagebox{
-            @extend %Width100;
-            // 彈性佈局
-            display: flex;
-            // 水平垂直置中
-            justify-content: center;
-            align-items: center;
-            // 邊框底線
-            border-bottom: 2px solid Var.$Blue02;
-
-            img{
-                // 圖片尺寸
-                width: 60%;
-            }
-        }
-
-        h3{
-            @extend %Width100;
-            // 文字置中
-            text-align: center;
-            // 文字尺寸
-            font-size: 16px;
-            // 文字粗細
-            font-weight: bold;
-            // 文字顏色
-            color: Var.$Blue02;
-            // 外間距 上下 左右
-            margin: 15px 0;
-        }
-
-        p{
-            @extend %Width100;
-            // 文字切齊：左右切齊，尾行靠左
-            text-align: justify;
-            // 文字顏色
-            color: Var.$Blue03;
-            // 文字行高
-            line-height: 1.5;
-            // 文字大小
-            font-size: 14px;
-            // 文字置中
-            text-align: center;
-            // 字母間距
-            letter-spacing: 0.5px;
-
-            // 文字多出部分需隱藏，以省略號表示
-            // 需用 瀏覽器相容性 的樣式撰寫
-            // 建立一個彈性內容
-            display: -webkit-box;
-            // 設定彈性內容的排列方向（垂直）
-            -webkit-box-orient: vertical;
-            // 限制顯示的行數（3行）
-            -webkit-line-clamp: 3;
-            // 超出部分隱藏
-            overflow: hidden;
-            // 超出部分以省略號表示
-            text-overflow: ellipsis;
-        }
-    }
+    @include Card.card();
 }
 
 #Work{
@@ -204,6 +117,8 @@
         background-attachment: fixed;
 
         .titlebox{
+        // 外間距（下）
+        margin-bottom: 20px; 
         h2{
         // 文字顏色
         color: Var.$White02;
@@ -217,8 +132,52 @@
         // 呼叫繼承樣式
         @extend %linexs;
         }
-    }
+        .work{
+            // 寬度（一同控制圖片的寬度）
+            width: 300px;
 
+            // 利用ul與li架設的區塊，將圖片寫入樣式表的背景，可以用簡單的樣式寫法;缺點：無法直接用資料庫的方式更改圖片
+    }
+}
+// 建議巢狀是讀法，只定義三層架構，故將作品集ul與li的樣式獨立出來（圖片區塊）
+#photobox{
+        // 圖片寬度
+        width: 300px;
+        // 置中對齊
+        margin: 0 auto;
+
+        li{
+            // 佔據寬度100%
+            width: 100%;
+            // 高度（固定單位）
+            height: 200px;
+            // 背景圖片
+            background-image: url(../../images/work/work1.png);
+
+        a{
+            // 文字顏色
+            color: Var.$White02;
+            // 文字尺寸
+            font-size: 24px;
+            // 文字粗細
+            font-weight: bold;
+            // 文字裝飾（移除底線）
+            text-decoration: none;
+            // 字距
+            letter-spacing: 1px;
+            // 感應區高度
+            height: 200px;
+            // 感應區寬度
+            width: 100%;
+            // 讓文字在畫面中置中
+            display: flex;
+            // 置中對齊
+            justify-content: center;
+            // 垂直置中
+            align-items: center;
+            }
+        }
+}
 #Contact{
         // 背景顏色
         background-color: Var.$White02;

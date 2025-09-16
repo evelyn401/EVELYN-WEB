@@ -1,0 +1,105 @@
+// HTML 結構
+// <div class="card">
+//     <div class="cardcontent">
+//         <div class="imagebox">
+//             <img src="圖片路徑" alt="圖片描述">
+//         </div>
+//         <h3>標題文字</h3>
+//         <p>描述文字</p>
+//     </div>
+// </div>
+
+@use '../../_01joint/_03variable.scss' as Var;
+
+@mixin card(){
+    .card{
+            // 寬度
+            width: 200px;
+            // 利用padding設定內間距 上下 取高度
+            padding: 20px;
+            // 背景顏色
+            background-color: Var.$White01;
+            // 讓物件在畫面正中間
+            margin: 0 auto;
+            // 導圓角
+            border-radius: 10px;
+            // 陰影 水平位移 垂直位移 模糊距離 顏色
+            box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
+
+        .cardcontent{
+            // 寬度
+            width: 95%;
+            //背景顏色
+            // background-color: Var.$Blue05;
+            // 置中對齊
+            margin: 0 auto;
+            // 彈性佈局
+            display: flex;
+            // 水平垂直置中
+            justify-content: center;
+            align-items: center;
+            // 換行
+            flex-wrap: wrap;
+        }
+
+        .imagebox{
+            @extend %Width100;
+            // 彈性佈局
+            display: flex;
+            // 水平垂直置中
+            justify-content: center;
+            align-items: center;
+            // 邊框底線
+            border-bottom: 2px solid Var.$Blue02;
+
+            img{
+                // 圖片尺寸
+                width: 60%;
+            }
+        }
+
+        h3{
+            @extend %Width100;
+            // 文字置中
+            text-align: center;
+            // 文字尺寸
+            font-size: 16px;
+            // 文字粗細
+            font-weight: bold;
+            // 文字顏色
+            color: Var.$Blue02;
+            // 外間距 上下 左右
+            margin: 15px 0;
+        }
+
+        p{
+            @extend %Width100;
+            // 文字切齊：左右切齊，尾行靠左
+            text-align: justify;
+            // 文字顏色
+            color: Var.$Blue03;
+            // 文字行高
+            line-height: 1.5;
+            // 文字大小
+            font-size: 14px;
+            // 文字置中
+            text-align: center;
+            // 字母間距
+            letter-spacing: 0.5px;
+
+            // 文字多出部分需隱藏，以省略號表示
+            // 需用 瀏覽器相容性 的樣式撰寫
+            // 建立一個彈性內容
+            display: -webkit-box;
+            // 設定彈性內容的排列方向（垂直）
+            -webkit-box-orient: vertical;
+            // 限制顯示的行數（3行）
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            // 超出部分隱藏
+            overflow: hidden;
+            // 超出部分以省略號表示
+            text-overflow: ellipsis;
+        }
+    }
+}

@@ -198,7 +198,7 @@ table {
     background-color: #F2F2F2;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
   }
   #Skills .card .cardcontent {
     width: 95%;
@@ -234,6 +234,7 @@ table {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -244,11 +245,38 @@ table {
     background-position: center;
     background-attachment: fixed;
   }
+  #Work .titlebox {
+    margin-bottom: 20px;
+  }
   #Work .titlebox h2 {
     color: #EAEAEA;
   }
   #Work .line {
     border-bottom-color: #EAEAEA;
+  }
+  #Work .work {
+    width: 300px;
+  }
+  #photobox {
+    width: 300px;
+    margin: 0 auto;
+  }
+  #photobox li {
+    width: 100%;
+    height: 200px;
+    background-image: url(../../images/work/work1.png);
+  }
+  #photobox li a {
+    color: #EAEAEA;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #Contact {
     background-color: #EAEAEA;
