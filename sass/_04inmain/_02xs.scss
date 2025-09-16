@@ -135,6 +135,8 @@
             // 水平垂直置中
             justify-content: center;
             align-items: center;
+            // 邊框底線
+            border-bottom: 2px solid Var.$Blue02;
 
             img{
                 // 圖片尺寸
@@ -152,12 +154,12 @@
             font-weight: bold;
             // 文字顏色
             color: Var.$Blue02;
+            // 外間距 上下 左右
+            margin: 15px 0;
         }
 
         p{
             @extend %Width100;
-            // 外間距上
-            margin-top: 10px;
             // 文字切齊：左右切齊，尾行靠左
             text-align: justify;
             // 文字顏色
@@ -177,7 +179,7 @@
             display: -webkit-box;
             // 設定彈性內容的排列方向（垂直）
             -webkit-box-orient: vertical;
-            // 限制顯示的行數（4行）
+            // 限制顯示的行數（3行）
             -webkit-line-clamp: 3;
             // 超出部分隱藏
             overflow: hidden;
