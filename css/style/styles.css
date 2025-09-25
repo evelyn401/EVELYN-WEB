@@ -146,7 +146,7 @@ table {
 @media screen and (min-width: 375px) {
   #Contact, #Work, #Skills, #AboutEvelyn {
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
   #Contact .titlebox h2, #Work .titlebox h2, #Skills .titlebox h2, #AboutEvelyn .titlebox h2 {
     text-align: center;
@@ -180,7 +180,7 @@ table {
     text-align: center;
     padding-bottom: 40px;
   }
-  #AboutEvelyn .content img {
+  #AboutEvelyn .content div img {
     width: 230px;
     height: auto;
     border-radius: 10px;
@@ -287,6 +287,9 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    opacity: 60%;
   }
   #Contact {
     background-color: #EAEAEA;
@@ -327,6 +330,7 @@ table {
   }
   #AboutEvelyn .content {
     padding-top: 50px;
+    display: flex;
   }
   #AboutEvelyn .content div {
     width: 100%;

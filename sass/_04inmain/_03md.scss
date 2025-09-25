@@ -57,6 +57,8 @@
         .content{
             // 內間距（上）
             padding-top: 50px;
+            // 彈性佈局 左右
+            display: flex;
 
             div{
                 // 佔據寬度100%
