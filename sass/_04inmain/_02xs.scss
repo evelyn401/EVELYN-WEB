@@ -12,7 +12,7 @@
         // 內間距（上）
         padding-top: 30px;
         // 內間距（下）
-        padding-bottom: 15px;
+        padding-bottom: 50px;
     }
 
     %BoxTextxs{
@@ -73,6 +73,15 @@
                 text-align: center;
                 // 內間距（下）
                 padding-bottom: 40px;
+            }
+            img{
+                // 圖片大小
+                width: 230px;
+                height: auto;
+                // 倒圓角
+                border-radius: 10px;
+                //  陰影
+                box-shadow: 0 2px 5px rgba(34,39,51,.1);
             }
         }
     }
@@ -139,6 +148,7 @@
             // 利用ul與li架設的區塊，將圖片寫入樣式表的背景，可以用簡單的樣式寫法;缺點：無法直接用資料庫的方式更改圖片
     }
 }
+
 // 建議巢狀是讀法，只定義三層架構，故將作品集ul與li的樣式獨立出來（圖片區塊）
 #photobox{
         // 圖片寬度
@@ -153,6 +163,14 @@
             height: 200px;
             // 背景圖片
             background-image: url(../../images/work/work1.png);
+            // 背景不重複
+            background-repeat: no-repeat;
+            // 背景尺寸
+            background-size: cover;
+            // 背景對齊方式
+            background-position: center;
+            // 倒圓角
+            border-radius: 10px;
 
         a{
             // 文字顏色
