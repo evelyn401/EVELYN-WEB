@@ -153,6 +153,7 @@ table {
     font-size: 18px;
     font-weight: bold;
     padding: 15px 0;
+    text-shadow: 1px 1px 3px rgba(61, 63, 70, 0.2);
   }
   #Contact .line, #Work .line, #Skills .line, #AboutEvelyn .titlebox .line {
     height: 2px;
@@ -270,11 +271,7 @@ table {
   #photobox li {
     width: 100%;
     height: 200px;
-    background-image: url(../../images/work/work1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
   }
   #photobox li a {
     font-size: 24px;
@@ -292,6 +289,13 @@ table {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     color: #EAEAEA;
+  }
+  #photobox .one {
+    background-image: url(../../images/work/work1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
   }
   #Contact {
     background-color: #EAEAEA;
