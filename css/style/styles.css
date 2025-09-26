@@ -277,19 +277,21 @@ table {
     border-radius: 10px;
   }
   #photobox li a {
-    color: #EAEAEA;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
     letter-spacing: 1px;
+    color: transparent;
     height: 200px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  #photobox li a:hover {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    opacity: 60%;
+    color: #EAEAEA;
   }
   #Contact {
     background-color: #EAEAEA;

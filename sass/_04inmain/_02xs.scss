@@ -173,8 +173,6 @@
             border-radius: 10px;
 
         a{
-            // 文字顏色
-            color: Var.$White02;
             // 文字尺寸
             font-size: 24px;
             // 文字粗細
@@ -183,6 +181,8 @@
             text-decoration: none;
             // 字距
             letter-spacing: 1px;
+            // 文字顏色透明值
+            color:transparent;
             // 感應區高度
             height: 200px;
             // 感應區寬度
@@ -193,14 +193,16 @@
             justify-content: center;
             // 垂直置中
             align-items: center;
+            }
+            a:hover{
             // 背景顏色 黑色
             background-color: rgba(0,0,0,.6);
             // 倒圓角
             border-radius: 10px;
-            // 透明度
-            opacity: 60%;
-            }
+            // 文字顏色
+            color: Var.$White02;
         }
+}
 }
 #Contact{
         // 背景顏色
