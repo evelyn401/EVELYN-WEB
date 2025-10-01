@@ -1,3 +1,6 @@
+// 框線設計 線條樣式 or 圓角樣式
+@use '../../_01joint/_03variable.scss' as Var;
+
 @mixin border-radius() {
     // 無參數版 圓角矩形boder-radius
     border-radius: 10px;
@@ -9,4 +12,14 @@
     border-top-right-radius: $trr;
     border-bottom-right-radius: $brr;
     border-bottom-left-radius: $blr;
+}
+
+@mixin border-styles(){
+    // 無參數版 框線寬度 樣式 顏色
+    border: 3px solid Var.$Blue04;
+}
+
+@mixin Border-styles($width, $style, $color){
+    // 有參數版 框線寬度 樣式 顏色
+    border: $width $style $color;
 }

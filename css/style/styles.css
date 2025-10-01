@@ -310,6 +310,9 @@ table {
   #Contact .line {
     border-bottom-color: #6e7f91;
   }
+  #Contact .inform {
+    border: 3px solid #4f6d7a;
+  }
 }
 @media screen and (min-width: 768px) {
   #Contact, #Work, #Skills, #AboutEvelyn {

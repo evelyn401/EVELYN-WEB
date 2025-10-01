@@ -240,5 +240,8 @@
         border-bottom-color: Var.$Blue02;
         @extend %linexs;
         }
+    .inform{
+        @include Border.Border-styles(3px,solid,Var.$Blue04);
+}
 }
 }
