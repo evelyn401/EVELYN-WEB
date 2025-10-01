@@ -164,6 +164,12 @@ table {
   #Skills .card p, #Skills .card h3, #Skills .card .imagebox {
     width: 100%;
   }
+  #photobox li a:hover, #photobox li {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
   #AboutEvelyn {
     background-color: #9da9b5;
   }
@@ -287,7 +293,6 @@ table {
   }
   #photobox li a:hover {
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
     color: #EAEAEA;
   }
   #photobox .one {
@@ -295,7 +300,6 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
   }
   #Contact {
     background-color: #EAEAEA;

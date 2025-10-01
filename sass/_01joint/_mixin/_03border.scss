@@ -1,0 +1,12 @@
+@mixin border-radius() {
+    // 無參數版 圓角矩形boder-radius
+    border-radius: 10px;
+}
+
+@mixin Border-radius($tlr, $trr, $brr, $blr) {
+    // 有參數版 圓角矩形boder-radius
+    border-top-left-radius: $tlr;
+    border-top-right-radius: $trr;
+    border-bottom-right-radius: $brr;
+    border-bottom-left-radius: $blr;
+}

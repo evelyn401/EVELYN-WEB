@@ -1,5 +1,6 @@
 @use "../_01joint/_mixin/_01media" as Rwd;
 @use "../_01joint/_mixin/_02card" as Card;
+@use "../_01joint/_mixin/_03border" as Border;
 @use "../_01joint/_03variable" as Var;
 
 @include Rwd.Rwd(xs){
@@ -42,6 +43,11 @@
     %Width100{
         // 寬度100%
         width: 100%;
+    }
+
+    %borderRadius{
+        // 圓角矩形
+        @include Border.Border-radius(10px,10px,10px,10px);
     }
 
 #AboutEvelyn{
@@ -164,6 +170,8 @@
             height: 200px;
             // 背景顏色
             background-color: rgba(0,0,0,.2);
+            // 圓角矩形
+            @extend %borderRadius;
         a{
             // 文字尺寸
             font-size: 24px;
@@ -190,7 +198,9 @@
             // 背景顏色 黑色
             background-color: rgba(0,0,0,.6);
             // 倒圓角
-            border-radius: 10px;
+            // border-radius: 10px;
+            // 圓角矩形
+            @extend %borderRadius;
             // 文字顏色
             color: Var.$White02;
         }
@@ -207,7 +217,7 @@
             // 背景對齊方式
             background-position: center;
             // 倒圓角
-            border-radius: 10px;
+            //border-radius: 10px;
             }
 }
 #Contact{
