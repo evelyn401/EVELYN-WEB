@@ -245,12 +245,31 @@
         @include Border.Border-styles(3px,solid,Var.$Blue04);
         // 寬度
         width: 300px;
-        // 高度 padding
-        padding: 20px;
+        // 內間距 padding
+        padding: 50px 15px 20px 15px;
         // 寬度往內縮 總寬度不變
         box-sizing: border-box;
         // 置中對齊
         margin: 0 auto;
+        // 文字顏色
+        color: Var.$Blue02;
+        
+        .box{
+            // 寬度
+            width: 100px;
+            // 高度
+            height: 80px;
+            // 背景顏色
+            background-color: Var.$White02;
+            // 移動至框線的右邊 設定定位方向：
+            // static(正常定位）以多物件為主，垂直方向由上往下排
+            // relative（相對定位）是相對於原本位置做調整，使用top、bottom、left、right移動
+            position: relative;
+            // 右移 (總寬300-方形寬100-內間距15)＝185px; 結果不夠，故再往右移10px
+            left: 195px;
+            // 上移 (內間距上50及方形100/2)＝100px
+            top: -100px;
+        }
 }
 }
 }

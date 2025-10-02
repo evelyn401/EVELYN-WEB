@@ -316,9 +316,18 @@ table {
   #Contact .inform {
     border: 3px solid #4f6d7a;
     width: 300px;
-    padding: 20px;
+    padding: 50px 15px 20px 15px;
     box-sizing: border-box;
     margin: 0 auto;
+    color: #6e7f91;
+  }
+  #Contact .inform .box {
+    width: 100px;
+    height: 80px;
+    background-color: #EAEAEA;
+    position: relative;
+    left: 195px;
+    top: -100px;
   }
 }
 @media screen and (min-width: 768px) {
