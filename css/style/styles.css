@@ -304,6 +304,9 @@ table {
   #Contact {
     background-color: #EAEAEA;
   }
+  #Contact .titlebox {
+    padding-bottom: 50px;
+  }
   #Contact .titlebox h2 {
     color: #6e7f91;
   }
@@ -312,6 +315,10 @@ table {
   }
   #Contact .inform {
     border: 3px solid #4f6d7a;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {

@@ -227,6 +227,7 @@
         @extend %BoxPaddingxs;
 
         .titlebox{
+        padding-bottom: 50px;
 
         h2{
         // 文字顏色
@@ -242,6 +243,14 @@
         }
     .inform{
         @include Border.Border-styles(3px,solid,Var.$Blue04);
+        // 寬度
+        width: 300px;
+        // 高度 padding
+        padding: 20px;
+        // 寬度往內縮 總寬度不變
+        box-sizing: border-box;
+        // 置中對齊
+        margin: 0 auto;
 }
 }
 }
