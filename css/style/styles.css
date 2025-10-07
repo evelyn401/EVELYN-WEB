@@ -331,6 +331,18 @@ table {
     left: 215px;
     top: -40px;
   }
+  #Contact .inform #info .labeltextsize {
+    font-size: 12px;
+    font-weight: bold;
+    color: #6e7f91;
+  }
+  #Contact .inform #info div {
+    padding-bottom: 10px;
+  }
+  #Contact .inform #info div input {
+    width: 70%;
+    height: 16px;
+  }
 }
 @media screen and (min-width: 768px) {
   #Contact, #Work, #Skills, #AboutEvelyn {
