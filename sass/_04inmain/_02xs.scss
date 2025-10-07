@@ -281,6 +281,7 @@
             top: -40px;
         }
         #info{
+            // 同一父框架的子物件，可用一對多的方式讀取樣式；不同父框架的子物件，需用繼承讀取樣式，可跨區塊使用
             .labeltextsize{
                 // 文字尺寸
                 font-size: 12px;
@@ -291,14 +292,17 @@
             }
             div{
                 // 內間距（下）
-                padding-bottom: 10px;
+                padding-bottom: 5px;
+                // background-color: aqua;
+                // 上外間距
+                margin-top: 5px;
 
                 label{
 
                 }
                 input{
                 // 寬度
-                width: 70%;
+                width: 97%;
                 // 高度
                 height: 16px;
                 }

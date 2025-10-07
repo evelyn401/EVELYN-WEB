@@ -337,10 +337,11 @@ table {
     color: #6e7f91;
   }
   #Contact .inform #info div {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 5px;
   }
   #Contact .inform #info div input {
-    width: 70%;
+    width: 97%;
     height: 16px;
   }
 }
