@@ -227,7 +227,8 @@
         @extend %BoxPaddingxs;
 
         .titlebox{
-        padding-bottom: 50px;
+        // 外間距（下）
+        margin-bottom: 20px; 
 
         h2{
         // 文字顏色
@@ -310,7 +311,9 @@
                 width: 99.8%;
                 // 高度
                 // height: 16px;
+                // 內間距取代高度
                 padding: 8px;
+                // 物件寬度以邊框為主，避免設定寬度後，邊框線條加上去，物件寬度超出設定值
                 box-sizing: border-box;
                 }
             }
