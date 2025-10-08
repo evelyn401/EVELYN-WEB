@@ -77,11 +77,12 @@
                 <p  class="labeltextsize ptext">＊必填欄位</p>
                 <div>
                 <label for="name"  class="labeltextsize">Name＊</label>
-                <input type="text" name="name"  id="name" required>
+                <!-- required 必填 minlength最小長度 maxlenght最大長度 value預設值 placeholder預設提示文字 -->
+                <input type="text" name="name"  id="name" required minlength="2" placeholder="請輸入實際姓名或暱稱">
                 </div>
                 <div>
                 <label for="email" class="labeltextsize">Email＊</label>
-                <input type="email" name="email"  id="email" required>
+                <input type="email" name="email"  id="email" required placeholder="請輸入電子郵件">
                 </div>
                 <div class="butbox">
                 <input type="submit" value="Submit">
