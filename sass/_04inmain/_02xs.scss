@@ -289,22 +289,29 @@
                 font-weight: bold;
                 // 文字顏色
                 color: Var.$Blue02;
+                // 內間距
+                padding: 5px 0;
+            }
+            .ptext{
+                // 文字對齊靠右
+                text-align: right;
             }
             div{
                 // 內間距（下）
                 padding-bottom: 5px;
                 // background-color: aqua;
-                // 上外間距
-                margin-top: 5px;
 
+                // 行內標籤無法讀取padding與margin，需用行高line-height調整
                 label{
-
+                    line-height: 20px;
                 }
                 input{
                 // 寬度
-                width: 97%;
+                width: 99.8%;
                 // 高度
-                height: 16px;
+                // height: 16px;
+                padding: 8px;
+                box-sizing: border-box;
                 }
             }
         }
