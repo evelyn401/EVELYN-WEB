@@ -340,13 +340,13 @@ table {
   #Contact .inform #info .ptext {
     text-align: right;
   }
-  #Contact .inform #info div {
+  #Contact .inform #info .labelbox {
     padding-bottom: 5px;
   }
-  #Contact .inform #info div label {
+  #Contact .inform #info .labelbox label {
     line-height: 20px;
   }
-  #Contact .inform #info div input {
+  #Contact .inform #info .labelbox input {
     width: 99.8%;
     padding: 8px;
     box-sizing: border-box;

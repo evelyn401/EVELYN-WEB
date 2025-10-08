@@ -75,14 +75,21 @@
             <div class="box"></div>
             <form action="" method="" id="info">
                 <p  class="labeltextsize ptext">＊必填欄位</p>
-                <div>
+                <div class="labelbox">
                 <label for="name"  class="labeltextsize">Name＊</label>
                 <!-- required 必填 minlength最小長度 maxlenght最大長度 value預設值 placeholder預設提示文字 -->
                 <input type="text" name="name"  id="name" required minlength="2" placeholder="請輸入實際姓名或暱稱">
                 </div>
-                <div>
+                <div class="labelbox">
                 <label for="email" class="labeltextsize">Email＊</label>
                 <input type="email" name="email"  id="email" required placeholder="請輸入電子郵件">
+                </div>
+                <!-- radio 選擇按鈕（單選）-->
+                <div id="radiobox">
+                    <p class="labeltextsize">Gender＊</p>
+                    <input type="radio" name="gender" id="" value="male">Male
+                    <input type="radio" name="gender" id="" value="female">Female
+                    <input type="radio" name="gender" id="" value="No comment">No comment
                 </div>
                 <div class="butbox">
                 <input type="submit" value="Submit">
