@@ -304,6 +304,11 @@ table {
   #Contact {
     background-color: #EAEAEA;
   }
+  #Contact .inform #info .labelbox input[type=email], #Contact .inform #info .labelbox input[type=text] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
   #Contact .titlebox {
     margin-bottom: 20px;
   }
@@ -346,10 +351,11 @@ table {
   #Contact .inform #info .labelbox label {
     line-height: 20px;
   }
-  #Contact .inform #info .labelbox input {
-    width: 99.8%;
-    padding: 8px;
-    box-sizing: border-box;
+  #Contact .inform #info .textareabox textarea {
+    width: 255px;
+    height: 255px;
+    max-width: 255px;
+    max-height: 255px;
   }
 }
 @media screen and (min-width: 768px) {

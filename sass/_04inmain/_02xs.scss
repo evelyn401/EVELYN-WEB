@@ -225,7 +225,17 @@
         background-color: Var.$White02;
         // 呼叫繼承樣式
         @extend %BoxPaddingxs;
-
+        
+        %inputtextbox{
+            // 寬度
+            width: 100%;
+            // 高度
+            // height: 16px;
+            // 內間距取代高度
+            padding: 8px;
+            // 物件寬度以邊框為主，避免設定寬度後，邊框線條加上去，物件寬度超出設定值
+            box-sizing: border-box;
+        }
         .titlebox{
         // 外間距（下）
         margin-bottom: 20px; 
@@ -306,15 +316,22 @@
                 label{
                     line-height: 20px;
                 }
-                input{
-                // 寬度
-                width: 99.8%;
-                // 高度
-                // height: 16px;
-                // 內間距取代高度
-                padding: 8px;
-                // 物件寬度以邊框為主，避免設定寬度後，邊框線條加上去，物件寬度超出設定值
-                box-sizing: border-box;
+                input[type="text"]{
+                    @extend %inputtextbox;
+                }
+                input[type="email"]{
+                    @extend %inputtextbox;
+                }
+            }
+            .textareabox{
+                textarea{
+                // 若html已設定rows，則可不設定寬高;反之無設定rows，則可設定寬高
+                width: 255px;
+                height: 255px;
+                // 最大寬度
+                max-width: 255px;
+                // 最大高度
+                max-height: 255px;
                 }
             }
         }
