@@ -1,0 +1,32 @@
+@use "../_01joint/_mixin/_01media" as Rwd;
+@use "../_01joint/_03variable" as Var;
+
+@include Rwd.Rwd(lg) {
+
+    #Contact{
+
+        %btnlg{
+            // 寬度
+            width: 40%;
+            // 文字尺寸
+            font-size: 18px;
+        }
+            .inform{
+            //寬度
+            width: 40%;
+            #info{
+                .butbox{
+                    input{
+                    @extend %btnlg;
+            }
+        }
+        .textareabox{
+            textarea{
+                width: 93%;
+                max-width: 93%;
+}
+}
+}
+}
+}
+}

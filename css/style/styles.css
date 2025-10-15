@@ -475,3 +475,16 @@ table {
     max-width: 94%;
   }
 }
+@media screen and (min-width: 992px) {
+  #Contact .inform #info .butbox input {
+    width: 40%;
+    font-size: 18px;
+  }
+  #Contact .inform {
+    width: 40%;
+  }
+  #Contact .inform #info .textareabox textarea {
+    width: 93%;
+    max-width: 93%;
+  }
+}
