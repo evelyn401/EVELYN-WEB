@@ -149,6 +149,13 @@
         // 呼叫繼承樣式
         @extend %BoxPaddingmd;
 
+        %btnmd{
+            // 寬度
+            width: 35%;
+            // 文字尺寸
+            font-size: 17px;
+        }
+
         .titlebox{
 
         h2{
@@ -163,5 +170,23 @@
         border-bottom-color: Var.$Blue02;
         @extend %linemd;
         }
+
+        .inform{
+            //寬度
+            width: 60%;
+            #info{
+                .butbox{
+                    input{
+                    @extend %btnmd;
+            }
+        }
+        .textareabox{
+            textarea{
+                width: 94%;
+                max-width: 94%;
 }
-    }
+}
+}
+}
+}
+}

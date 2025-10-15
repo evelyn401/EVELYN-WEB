@@ -457,10 +457,21 @@ table {
   #Contact {
     background-color: #EAEAEA;
   }
+  #Contact .inform #info .butbox input {
+    width: 35%;
+    font-size: 17px;
+  }
   #Contact .titlebox h2 {
     color: #6e7f91;
   }
   #Contact .line {
     border-bottom-color: #6e7f91;
+  }
+  #Contact .inform {
+    width: 60%;
+  }
+  #Contact .inform #info .textareabox textarea {
+    width: 94%;
+    max-width: 94%;
   }
 }
