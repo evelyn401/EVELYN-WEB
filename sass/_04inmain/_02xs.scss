@@ -271,7 +271,8 @@
     .inform{
         @include Border.Border-styles(3px,solid,Var.$Blue04);
         // 寬度
-        width: 300px;
+        // width: 300px;
+        width: 80%;
         // 內間距 padding
         padding: 35px 15px 35px 15px;
         // 寬度往內縮 總寬度不變
@@ -301,7 +302,10 @@
             // 右移 (總寬300-方形寬100-內間距15)＝185px; 結果不夠，故再往右移20px
             // left: 195px;
             // 重置後再右移20px
-            left: 215px;
+            // left: 215px;
+            // left: 75%;
+            // 響應各種尺寸不跑版，故改成右邊距離
+            right: -15px;
             // 上移 (內間距上50及方形80/2)＝90px
             // top: -90px;
             // 重置後改上移40px即可
@@ -342,10 +346,10 @@
             .textareabox{
                 textarea{
                 // 若html已設定rows，則可不設定寬高;反之無設定rows，則可設定寬高
-                width: 240px;
+                width: 92%;
                 height: 240px;
                 // 最大寬度
-                max-width: 240px;
+                max-width: 92%;
                 // 最大高度
                 max-height: 240px;
                 // 文字上左間距

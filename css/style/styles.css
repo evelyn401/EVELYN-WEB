@@ -52,7 +52,7 @@ table {
   border-spacing: 0;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   header {
     padding: 20px 0 20px 0;
     background-color: #F2F2F2;
@@ -122,7 +122,7 @@ table {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   footer {
     background-image: url(../../images/background/footer01.jpg);
     background-color: burlywood;
@@ -143,7 +143,7 @@ table {
     color: white;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   #Contact, #Work, #Skills, #AboutEvelyn {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -328,7 +328,7 @@ table {
   }
   #Contact .inform {
     border: 3px solid #4f6d7a;
-    width: 300px;
+    width: 80%;
     padding: 35px 15px 35px 15px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -341,7 +341,7 @@ table {
     background-color: #EAEAEA;
     position: absolute;
     z-index: 5;
-    left: 215px;
+    right: -15px;
     top: -40px;
   }
   #Contact .inform #info .labeltextsize {
@@ -360,9 +360,9 @@ table {
     line-height: 20px;
   }
   #Contact .inform #info .textareabox textarea {
-    width: 240px;
+    width: 92%;
     height: 240px;
-    max-width: 240px;
+    max-width: 92%;
     max-height: 240px;
     padding: 5px 10px;
   }
