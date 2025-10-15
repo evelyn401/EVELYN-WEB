@@ -164,7 +164,7 @@ table {
   #Skills .card p, #Skills .card h3, #Skills .card .imagebox {
     width: 100%;
   }
-  #photobox li a:hover, #photobox li {
+  #Contact .inform #info .butbox input, #photobox li a:hover, #photobox li {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -309,6 +309,14 @@ table {
     padding: 8px;
     box-sizing: border-box;
   }
+  #Contact .inform #info .butbox input {
+    width: 45%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
   #Contact .titlebox {
     margin-bottom: 20px;
   }
@@ -352,10 +360,27 @@ table {
     line-height: 20px;
   }
   #Contact .inform #info .textareabox textarea {
-    width: 255px;
-    height: 255px;
-    max-width: 255px;
-    max-height: 255px;
+    width: 240px;
+    height: 240px;
+    max-width: 240px;
+    max-height: 240px;
+    padding: 5px 10px;
+  }
+  #Contact .inform #info .butbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  #Contact .inform #info .butbox .submit {
+    color: #EAEAEA;
+    background-color: rgb(203, 137, 13);
+    border: none;
+    order: 2;
+  }
+  #Contact .inform #info .butbox .reset {
+    color: #EAEAEA;
+    background-color: #6e7f91;
+    border: none;
+    order: 1;
   }
 }
 @media screen and (min-width: 768px) {

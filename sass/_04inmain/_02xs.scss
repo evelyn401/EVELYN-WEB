@@ -236,6 +236,22 @@
             // 物件寬度以邊框為主，避免設定寬度後，邊框線條加上去，物件寬度超出設定值
             box-sizing: border-box;
         }
+        %btn{
+            // 寬度
+            width: 45%;
+            // 高度
+            height: 30px;
+            // 圓角矩形
+            @extend %borderRadius;
+            // 文字粗細
+            font-weight: bold;
+            // 文字尺寸
+            font-size: 15px;
+            // 外間距（上）
+            margin-top: 10px;
+            // 游標樣式
+            cursor: pointer;
+        }
         .titlebox{
         // 外間距（下）
         margin-bottom: 20px; 
@@ -326,12 +342,43 @@
             .textareabox{
                 textarea{
                 // 若html已設定rows，則可不設定寬高;反之無設定rows，則可設定寬高
-                width: 255px;
-                height: 255px;
+                width: 240px;
+                height: 240px;
                 // 最大寬度
-                max-width: 255px;
+                max-width: 240px;
                 // 最大高度
-                max-height: 255px;
+                max-height: 240px;
+                // 文字上左間距
+                padding: 5px 10px;
+                }
+            }
+            .butbox{
+                // 彈性佈局
+                display: flex;
+                // 置中對齊
+                justify-content: space-between;
+                input{
+                    @extend %btn;
+            }
+                .submit{
+                    // 文字顏色
+                    color: Var.$White02;
+                    // 背景顏色
+                    background-color:rgb(203, 137, 13);
+                    // 邊框線條樣式(無)
+                    border: none;
+                    // 變更順序
+                    order: 2;
+                }
+                .reset{
+                    // 文字顏色
+                    color: Var.$White02;
+                    // 背景顏色
+                    background-color: Var.$Blue02;
+                    // 邊框線條樣式(無)
+                    border: none;
+                    // 變更順序
+                    order: 1;
                 }
             }
         }
