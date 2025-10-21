@@ -79,8 +79,6 @@
             margin: 0 auto;
 
             .imgbox{
-                // 佔據寬度100%
-                width: 100%;
                 // 置中對齊
                 text-align: center;
                 // 內間距（下）
@@ -104,7 +102,7 @@
                 // 設定總寬度不變，寬度往內縮
                 box-sizing: border-box;
                 // 文字尺寸
-                font-size: 12px;
+                font-size: 15px;
                 // 文字行高
                 line-height: 1.6;
                 // 內間距（下）

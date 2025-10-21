@@ -59,14 +59,29 @@
             padding-top: 50px;
             // 彈性佈局 左右
             display: flex;
+            // 水平對齊 前後有間距 均分
+            justify-content: space-around;
 
-            div{
-                // 佔據寬度100%
-                width: 100%;
+            .imgbox{
+                // 佔據寬度
+                width: 50%;
+                // 內間距（下）
+                padding-bottom: 40px;
+            }
+
+            .intro{
+                // 佔據寬度
+                width: 50%;
                 // 置中對齊
                 text-align: center;
                 // 內間距（下）
                 padding-bottom: 40px;
+                // 文字尺寸
+                font-size: 18px;
+                // 內間距
+                padding: 15px 15px;
+                // 設定總寬度不變，寬度往內縮
+                box-sizing: border-box;
             }
         }
     }

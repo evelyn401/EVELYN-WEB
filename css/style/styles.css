@@ -188,7 +188,6 @@ table {
     margin: 0 auto;
   }
   #AboutEvelyn .content .imgbox {
-    width: 100%;
     text-align: center;
     padding-bottom: 40px;
   }
@@ -202,7 +201,7 @@ table {
     color: #F2F2F2;
     padding: 0 15px;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.6;
     padding-bottom: 20px;
   }
@@ -426,11 +425,19 @@ table {
   #AboutEvelyn .content {
     padding-top: 50px;
     display: flex;
+    justify-content: space-around;
   }
-  #AboutEvelyn .content div {
-    width: 100%;
+  #AboutEvelyn .content .imgbox {
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  #AboutEvelyn .content .intro {
+    width: 50%;
     text-align: center;
     padding-bottom: 40px;
+    font-size: 18px;
+    padding: 15px 15px;
+    box-sizing: border-box;
   }
   #Skills {
     background-color: #EAEAEA;
