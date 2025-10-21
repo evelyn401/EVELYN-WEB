@@ -7,6 +7,12 @@
     footer{
         // 背景圖片
         background-image: url(../../images/background/footer01.jpg);
+        // 背景圖片不重複
+        background-repeat: no-repeat;
+        // 背景圖片定位（水平 垂直）
+        background-position: center center;
+        // 背景圖片尺寸
+        background-size: cover;
         // 背景顏色
         background-color: burlywood;
         ul{

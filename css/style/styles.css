@@ -125,6 +125,9 @@ table {
 @media screen and (min-width: 320px) {
   footer {
     background-image: url(../../images/background/footer01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-color: burlywood;
   }
   footer ul {
@@ -486,5 +489,10 @@ table {
   #Contact .inform #info .textareabox textarea {
     width: 93%;
     max-width: 93%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #Contact .inform {
+    width: 20%;
   }
 }

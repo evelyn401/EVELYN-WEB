@@ -2,4 +2,11 @@
 @use "../_01joint/_03variable" as Var;
 
 @include Rwd.Rwd(xxl){
+
+    #Contact{
+        .inform{
+            //寬度
+            width: 20%;
+}
+}
 }
