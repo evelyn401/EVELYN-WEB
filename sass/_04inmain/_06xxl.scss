@@ -1,0 +1,5 @@
+@use "../_01joint/_mixin/_01media" as Rwd;
+@use "../_01joint/_03variable" as Var;
+
+@include Rwd.Rwd(xxl){
+}
