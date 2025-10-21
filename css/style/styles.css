@@ -509,7 +509,10 @@ table {
   }
 }
 @media screen and (min-width: 1400px) {
-  #Contact .inform {
+  #AboutEvelyn .content {
+    width: 50%;
+  }
+  #AboutEvelyn #Contact .inform {
     width: 20%;
   }
 }

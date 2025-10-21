@@ -3,10 +3,17 @@
 
 @include Rwd.Rwd(xxl){
 
+    #AboutEvelyn{
+        .content{
+            // 所佔寬度
+            width:50%;
+    }
+
     #Contact{
         .inform{
             //寬度
             width: 20%;
+}
 }
 }
 }
