@@ -107,12 +107,12 @@ table {
 }
 @media screen and (min-width: 992px) {
   header > h1 > div > img {
-    padding-left: 120px;
-    width: 180px;
+    padding-left: 50px;
+    width: 120px;
     height: auto;
   }
   header > nav {
-    margin-right: 120px;
+    margin-right: 5-px;
     display: block;
   }
   header ul li {
@@ -423,7 +423,7 @@ table {
     border-bottom-color: #F2F2F2;
   }
   #AboutEvelyn .content {
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
   }
