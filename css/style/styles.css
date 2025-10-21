@@ -183,18 +183,28 @@ table {
     border-bottom-color: #F2F2F2;
   }
   #AboutEvelyn .content {
-    padding-top: 50px;
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
   }
-  #AboutEvelyn .content div {
+  #AboutEvelyn .content .imgbox {
     width: 100%;
     text-align: center;
     padding-bottom: 40px;
   }
-  #AboutEvelyn .content div img {
+  #AboutEvelyn .content .imgbox img {
     width: 230px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
+  }
+  #AboutEvelyn .content .intro {
+    color: #F2F2F2;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.6;
+    padding-bottom: 20px;
   }
   #Skills {
     background-color: #EAEAEA;
