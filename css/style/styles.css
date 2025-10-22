@@ -403,27 +403,17 @@ table {
   }
   #Contact .titlebox h2, #Work .titlebox h2, #Skills .titlebox h2, #AboutEvelyn .titlebox h2 {
     font-size: 24px;
-    text-align: center;
-    font-weight: bold;
-    padding: 15px 0;
   }
   #Contact .line, #Work .line, #Skills .line, #AboutEvelyn .titlebox .line {
     height: 2px;
     width: 60px;
-    margin: 0 auto;
     border-bottom: 4px solid;
   }
-  #AboutEvelyn {
-    background-color: #9da9b5;
-  }
-  #AboutEvelyn .titlebox h2 {
-    color: #F2F2F2;
-  }
   #AboutEvelyn .titlebox .line {
-    border-bottom-color: #F2F2F2;
+    border-bottom-color: #EAEAEA;
+    margin-bottom: 15px;
   }
   #AboutEvelyn .content {
-    padding-top: 20px;
     display: flex;
     justify-content: space-around;
   }

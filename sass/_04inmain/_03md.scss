@@ -16,12 +16,6 @@
     %BoxTextmd{
         // 文字尺寸
         font-size: 24px;
-        // 文字對齊(置中)
-        text-align: center;
-        // 文字粗細
-        font-weight: bold;
-        // 內間距
-        padding: 15px 0;
     }
 
     %linemd{
@@ -29,34 +23,28 @@
         height: 2px;
         // 寬度
         width: 60px;
-        // 外邊界（設定置中）上下為0 左右自動
-        margin: 0 auto;
         // 下邊框線寬度樣式
         border-bottom: 4px solid;
     }
 #AboutEvelyn{
-        // 背景顏色
-        background-color: Var.$Blue03;
         // 呼叫繼承樣式
         @extend %BoxPaddingmd;
 
         .titlebox{
 
         h2{
-        // 文字顏色
-        color: Var.$White01;
         // 呼叫繼承樣式
         @extend %BoxTextmd;
         }
         .line{
-            // 下邊框線條顏色
-            border-bottom-color: Var.$White01;
             @extend %linemd;
+            // 下邊框線條顏色
+            border-bottom-color: Var.$White02;
+            // 外間距（下）
+            margin-bottom: 15px;
         }
     }
         .content{
-            // 內間距（上）
-            padding-top: 20px;
             // 彈性佈局 左右
             display: flex;
             // 水平對齊 前後有間距 均分
