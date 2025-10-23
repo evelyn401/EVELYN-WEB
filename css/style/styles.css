@@ -498,7 +498,16 @@ table {
   #AboutEvelyn .content {
     width: 50%;
   }
-  #AboutEvelyn #Contact .inform {
-    width: 20%;
+  #Contact .inform #info .butbox input {
+    width: 30%;
+    height: 35px;
+    font-size: 18px;
+  }
+  #Contact .inform {
+    width: 30%;
+  }
+  #Contact .inform #info .textereabox textarea {
+    width: 100%;
+    max-width: 100%;
   }
 }

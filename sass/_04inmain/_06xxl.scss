@@ -8,12 +8,33 @@
             // 所佔寬度
             width:50%;
     }
-
+    }
     #Contact{
+        %btnxxl{
+            // 寬度
+            width: 30%;
+            // 高度
+            height: 35px;
+            // 文字尺寸
+            font-size: 18px;
+        }
         .inform{
-            //寬度
-            width: 20%;
+            // 寬度
+            width: 30%;
+            #info{
+                .butbox{
+                    input{
+                        @extend %btnxxl;
+                    }
+                }
+                .textereabox{
+                    textarea{
+                        // 寬度
+                        width: 100%;
+                        // 最大寬度
+                        max-width: 100%;
+                    }
+            }
 }
 }
-}
-}
+    }}
