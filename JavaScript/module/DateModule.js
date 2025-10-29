@@ -10,4 +10,6 @@ export function Years(){
     let Years = new Date().getFullYear();
     // 寫入 HTML 標籤內，讀取邊簽的 id選擇器
     let Content = document.getElementById("Years");
+    // 將年份寫入 html標籤內
+    Content.textContent = Years;
 }
