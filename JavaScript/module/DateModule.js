@@ -8,8 +8,8 @@
 export function Years(){
     // 宣告變數，承接「時間」實體化
     let Years = new Date().getFullYear();
-    // 寫入 HTML 標籤內，讀取邊簽的 id選擇器
-    let Content = document.getElementById("Years");
+    // 寫入 HTML 標籤內，讀取id選擇器
+    let Year = document.getElementById("Years");
     // 將年份寫入 html標籤內
-    Content.textContent = Years;
+    Year.textContent = Years;
 }
