@@ -15,6 +15,6 @@ export function AddLabel() {
     // 設定要新增的 div 元素
     div2.className = "imagebox";
     // 在 .cardcontent 內動態新增 div 元素
+    // querySelector 是用來選取特定的元素，在JavaScript中用來操作DOM，專門用來選取符合CSS選擇器的第一個元素，例如：ID、class等
     document.querySelector(".cardcontent").appendChild(div2);
-
 }
