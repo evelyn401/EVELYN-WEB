@@ -5,4 +5,4 @@ import { AddLabel, AddLabelfor } from "./module/AddLabel.js";
 // 執行函式
 Years();
 // AddLabel();
-AddLabelfor();
+AddLabelfor(5);

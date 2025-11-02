@@ -41,11 +41,11 @@ export function AddLabel() {
 }
 
 // 這個模組的功能是動態地在網頁中新增一個技能卡片，包含圖片、標題和描述文字，提升網頁的互動性和可維護性。
-export function AddLabelfor() {
+export function AddLabelfor($Number) {
     // 主架構 宣告變數
     let card = document.getElementById("SkillsCard");
     // 有迴圈
-    for( let i =0; i < 2; i++){
+    for( let i =0; i < $Number ; i++){
         // 1. 在 .card 之內加入 div,cardcontent
         let div = document.createElement("div");
         // 2. 設定上述元素的 class 屬性為 cardcontent
