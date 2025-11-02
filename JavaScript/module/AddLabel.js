@@ -17,4 +17,12 @@ export function AddLabel() {
     // 在 .cardcontent 內動態新增 div 元素
     // querySelector 是用來選取特定的元素，在JavaScript中用來操作DOM，專門用來選取符合CSS選擇器的第一個元素，例如：ID、class、標籤名稱等
     document.querySelector(".cardcontent").appendChild(div2);
+
+    // 新增 img 標籤
+    let img = document.createElement("img");
+    // 設定 img 的 src 屬性
+    img.src = "images/icons/ai.png";
+    // 在 .imagebox 內動態新增 img 元素
+    document.querySelector(".imagebox").appendChild(img);
+
 }
