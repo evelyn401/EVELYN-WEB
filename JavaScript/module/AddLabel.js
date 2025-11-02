@@ -24,5 +24,19 @@ export function AddLabel() {
     img.src = "images/icons/ai.png";
     // 在 .imagebox 內動態新增 img 元素
     document.querySelector(".imagebox").appendChild(img);
+    
+    // 新增 h3 標籤
+    let h3 = document.createElement("h3");
+    // 寫入文字
+    h3.innerText = "Graphic Design";
+    // 在 .cardcontent 內動態新增 h3 元素
+    document.querySelector(".cardcontent").appendChild(h3);
+
+    // 新增 p 標籤
+    let p = document.createElement("p");
+    // 寫入文字
+    p.innerText = "Illustrator、Business Card Design、Packaging Design、Board game Design";
+    // 在 .cardcontent 內動態新增 p 元素
+    document.querySelector(".cardcontent").appendChild(p);
 
 }
