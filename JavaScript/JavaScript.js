@@ -5,5 +5,5 @@ import { AddLabel, AddLabelfor ,AddLabelforOptimized } from "./module/AddLabel.j
 // 執行函式
 Years();
 // AddLabel();
-AddLabelfor(5);
-// AddLabelforOptimized("SkillsCard", 2, "cardcontent", "imagebox", "images/icons/UIUX.png", "UI&UX設計 UI&UX Design", "Website Design、APP Design、HTML、CSS、SASS、JavaScript");
+// AddLabelfor(5);
+AddLabelforOptimized("SkillsCard", 2, "cardcontent", "imagebox", "images/icons/UIUX.png", "UI&UX設計 UI&UX Design", "Website Design、APP Design、HTML、CSS、SASS、JavaScript");

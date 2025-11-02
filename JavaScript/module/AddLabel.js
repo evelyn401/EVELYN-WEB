@@ -129,3 +129,4 @@ export function AddLabelforOptimized($MainId, $Number, $DivClass, $DivClass2, $I
         document.querySelectorAll("." + $DivClass)[i].appendChild(p);
     }
 }
+
