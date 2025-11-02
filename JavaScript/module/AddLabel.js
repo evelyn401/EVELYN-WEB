@@ -6,5 +6,6 @@ export function AddLabel() {
     let div = document.createElement("div");
     // 2. 設定上述元素的 class 屬性為 cardcontent
     div.className = "cardcontent";
-    // 3. 
+    // 3. 在 主架構之內 動態 新增 div 元素
+    card.appendChild(div);
 }
