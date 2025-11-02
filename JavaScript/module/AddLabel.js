@@ -8,4 +8,13 @@ export function AddLabel() {
     div.className = "cardcontent";
     // 3. 在 主架構之內 動態 新增 div 元素
     card.appendChild(div);
+
+    // 新增第二個區塊 屬性 imagebox 的 div
+    // 若是用動態創建標籤 createElement 這方式不能省略
+    let div2 = document.createElement("div");
+    // 設定要新增的 div 元素
+    div2.className = "imagebox";
+    // 在 .cardcontent 內動態新增 div 元素
+    document.querySelector(".cardcontent").appendChild(div2);
+
 }
