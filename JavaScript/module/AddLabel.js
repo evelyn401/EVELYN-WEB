@@ -130,3 +130,21 @@ export function AddLabelforOptimized($MainId, $Number, $DivClass, $DivClass2, $I
     }
 }
 
+export function Photobox(){
+    // 新增多筆的 li
+    // 主架構 宣告變數
+    let photobox = document.getElementById("photobox");
+    // 建立 li 元素
+    let li = document.createElement("li");
+    // 給予 li 元素 class 屬性
+    li.className = "one";
+    // 在 主架構 內 動態 新增 li 元素
+    photobox.appendChild(li);
+
+    // 新增 a 標籤
+    let a = document.createElement("a");
+    // 設定 a 標籤的 href 屬性
+    a.href = "javascript:;";
+    // 在 li 內動態新增 a 元素
+    li.appendChild(a);
+}
