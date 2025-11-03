@@ -217,6 +217,9 @@ table {
   #Skills .line {
     border-bottom-color: #6e7f91;
   }
+  #Skills .card {
+    width: 100%;
+  }
   #Skills .card .cardcontent {
     width: 200px;
     padding: 20px;
