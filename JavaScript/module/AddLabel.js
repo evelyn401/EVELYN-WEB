@@ -145,6 +145,8 @@ export function Photobox(){
     let a = document.createElement("a");
     // 設定 a 標籤的 href 屬性
     a.href = "javascript:;";
+    // 設定 a 標籤的文字內容
+    a.innerText = "Packaging Design";
     // 在 li 內動態新增 a 元素
     li.appendChild(a);
 }
@@ -167,6 +169,8 @@ export function Photoboxfor(){
     let a = document.createElement("a");
     // 設定 a 標籤的 href 屬性
     a.href = "javascript:;";
+    // 設定 a 標籤的文字內容
+    a.innerText = "Packaging Design";
     // 在 li 內動態新增 a 元素
     li.appendChild(a);
     }
