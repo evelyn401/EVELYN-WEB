@@ -149,7 +149,7 @@ table {
 @media screen and (min-width: 320px) {
   #Contact, #Work, #Skills, #AboutEvelyn {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
   #Contact .titlebox h2, #Work .titlebox h2, #Skills .titlebox h2, #AboutEvelyn .titlebox h2 {
     text-align: center;
