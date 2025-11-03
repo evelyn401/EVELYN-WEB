@@ -217,17 +217,13 @@ table {
   #Skills .line {
     border-bottom-color: #6e7f91;
   }
-  #Skills .card {
+  #Skills .card .cardcontent {
     width: 200px;
     padding: 20px;
     background-color: #F2F2F2;
-    margin: 0 auto;
+    margin: 30px auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
-  }
-  #Skills .card .cardcontent {
-    width: 95%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;

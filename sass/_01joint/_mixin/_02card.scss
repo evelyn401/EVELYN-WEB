@@ -13,6 +13,20 @@
 
 @mixin card(){
     .card{
+            // // 寬度
+            // width: 200px;
+            // // 利用padding設定內間距 上下 取高度
+            // padding: 20px;
+            // // 背景顏色
+            // background-color: Var.$White01;
+            // // 讓物件在畫面正中間
+            // margin: 0 auto;
+            // // 導圓角
+            // border-radius: 10px;
+            // // 陰影 水平位移 垂直位移 模糊距離 顏色
+            // box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
+
+        .cardcontent{
             // 寬度
             width: 200px;
             // 利用padding設定內間距 上下 取高度
@@ -20,19 +34,11 @@
             // 背景顏色
             background-color: Var.$White01;
             // 讓物件在畫面正中間
-            margin: 0 auto;
+            margin: 30px auto;
             // 導圓角
             border-radius: 10px;
             // 陰影 水平位移 垂直位移 模糊距離 顏色
             box-shadow: 0 2px 5px rgba(34, 39, 51, 0.1);
-
-        .cardcontent{
-            // 寬度
-            width: 95%;
-            //背景顏色
-            // background-color: Var.$Blue05;
-            // 置中對齊
-            margin: 0 auto;
             // 彈性佈局
             display: flex;
             // 水平垂直置中
