@@ -183,6 +183,7 @@ export function PhotoBoxForArray(){
 
     // 宣告li 迴圈變數
     let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+    let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
     
     // 有迴圈
     for( let i =0; i < liclass.length ; i++ ){
@@ -198,7 +199,7 @@ export function PhotoBoxForArray(){
     // 設定 a 標籤的 href 屬性
     a.href = "javascript:;";
     // 設定 a 標籤的文字內容
-    a.innerText = "Packaging Design";
+    a.innerText = texts[i];
     // 在 li 內動態新增 a 元素
     li.appendChild(a);
     }
