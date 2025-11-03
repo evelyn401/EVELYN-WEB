@@ -182,14 +182,14 @@ export function PhotoBoxForArray(){
     let photobox = document.getElementById("photobox");
 
     // 宣告li 迴圈變數
-    let liclass = ["one","two","three","four","five","six","seven","eight","nine"];
+    let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
     
     // 有迴圈
-    for( let i =0; i < 9 ; i++ ){
+    for( let i =0; i < liclass.length ; i++ ){
     // 建立 li 元素
     let li = document.createElement("li");
     // 給予 li 元素 class 屬性
-    li.className = "one";
+    li.className = liclass[i];
     // 在 主架構 內 動態 新增 li 元素
     photobox.appendChild(li);
 
