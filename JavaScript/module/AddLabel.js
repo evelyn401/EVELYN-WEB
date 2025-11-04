@@ -211,7 +211,7 @@ export function PhotoBoxDataArray(){
     // 主架構 宣告變數
     let photobox = document.getElementById("photobox");
 
-    // 宣告資料陣列變數
+    // 宣告 物件陣列變數
     let dataArray = [
         { className: "one", text: "Packaging Design", Images: "../../images/work/work1.png" },
         { className: "two", text: "Business Card Design", Images: "../../images/work/work2.png" },
@@ -223,8 +223,15 @@ export function PhotoBoxDataArray(){
         { className: "eight", text: "APP Design", Images: "../../images/work/work8.png" },
         { className: "nine", text: "Premiere", Images: "../../images/work/work9.png" }
     ];
-    let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-    let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
+    
+    // for...of 迴圈，是用來遍歷可迭代物件（如陣列、字串、Map、Set等）中的每一個元素。它的語法簡潔且易於閱讀，能依序讀取每個元素。
+    /*
+        for ( let variable of iterable ){
+            在每次迴圈中要執行的程式碼
+        }
+        variable：在每次迴圈中代表當前元素的變數，可以是任何合法的變數名稱。
+        iterable：要遍歷的可迭代物件，如陣列、字串、Map、Set等。
+    */
     
     // 有迴圈
     for( let i =0; i < liclass.length ; i++ ){
