@@ -191,6 +191,9 @@
             background-color: rgba(0,0,0,.2);
             // 圓角矩形
             @extend %borderRadius;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         a{
             // 文字尺寸
             font-size: 24px;
@@ -227,7 +230,7 @@
         // 作品圖片區塊
         .one{
             // 背景圖片
-            background-image: url(../../images/work/work1.png);
+            // background-image: url(../../images/work/work1.png);
             // 背景不重複
             background-repeat: no-repeat;
             // 背景尺寸：contain 圖片剛好等於圖框寬度，不會超出圖框;cover 圖片大於圖框時，超出的部分會被裁切

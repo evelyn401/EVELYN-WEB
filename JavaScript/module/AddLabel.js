@@ -238,6 +238,8 @@ export function PhotoBoxDataArray(){
         let li = document.createElement("li");
         // 給予 li 元素 class 屬性
         li.className = Photos.className;
+        // 設定 li 元素的背景圖片
+        li.style.backgroundImage = `url(${Photos.Images})`;
         // 在 主架構 內 動態 新增 li 元素
         photobox.appendChild(li);
 
