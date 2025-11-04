@@ -204,3 +204,44 @@ export function PhotoBoxForArray(){
     li.appendChild(a);
     }
 }
+
+// 資料陣列版本
+export function PhotoBoxDataArray(){
+    // 新增多筆的 li
+    // 主架構 宣告變數
+    let photobox = document.getElementById("photobox");
+
+    // 宣告資料陣列變數
+    let dataArray = [
+        { className: "one", text: "Packaging Design", Images: "../../images/work/work1.png" },
+        { className: "two", text: "Business Card Design", Images: "../../images/work/work2.png" },
+        { className: "three", text: "Storybook Design", Images: "../../images/work/work3.png" },
+        { className: "four", text: "Calendar Design", Images: "../../images/work/work4.png" },
+        { className: "five", text: "Board game Design", Images: "../../images/work/work5.png" },
+        { className: "six", text: "Website Design", Images: "../../images/work/work6.png" },
+        { className: "seven", text: "Stamp Design", Images: "../../images/work/work7.png" },
+        { className: "eight", text: "APP Design", Images: "../../images/work/work8.png" },
+        { className: "nine", text: "Premiere", Images: "../../images/work/work9.png" }
+    ];
+    let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+    let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
+    
+    // 有迴圈
+    for( let i =0; i < liclass.length ; i++ ){
+    // 建立 li 元素
+    let li = document.createElement("li");
+    // 給予 li 元素 class 屬性
+    li.className = liclass[i];
+    // 在 主架構 內 動態 新增 li 元素
+    photobox.appendChild(li);
+
+    // 新增 a 標籤
+    let a = document.createElement("a");
+    // 設定 a 標籤的 href 屬性
+    a.href = "javascript:;";
+    // 設定 a 標籤的文字內容
+    a.innerText = texts[i];
+    // 在 li 內動態新增 a 元素
+    li.appendChild(a);
+    }
+}
