@@ -424,6 +424,15 @@ img {
     width: 60px;
     border-bottom: 4px solid;
   }
+  #Inmain #BannerBox {
+    width: 100%;
+  }
+  #Inmain #Banners #phoneBanner {
+    display: none;
+  }
+  #Inmain #Banners #MDBanner {
+    display: block;
+  }
   #AboutEvelyn .titlebox .line {
     border-bottom-color: #EAEAEA;
     margin-bottom: 15px;

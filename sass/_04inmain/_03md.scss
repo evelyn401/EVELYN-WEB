@@ -26,6 +26,22 @@
         // 下邊框線寬度樣式
         border-bottom: 4px solid;
     }
+
+#Inmain{
+    #BannerBox{
+        width: 100%;
+    }
+    #Banners{
+        #phoneBanner{
+            // 隱藏圖片
+            display: none;
+        }
+        #MDBanner{
+            display: block;
+    }
+    }
+}
+
 #AboutEvelyn{
         // 呼叫繼承樣式
         @extend %BoxPaddingmd;
