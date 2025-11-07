@@ -2,3 +2,8 @@
 body{
     font-family: 'cwTeXYen', sans-serif;
 }
+img{
+    // 讓圖片在容器內自適應 等比縮放
+    width: 100%;
+    height: auto;
+}

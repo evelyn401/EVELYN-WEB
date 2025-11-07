@@ -57,6 +57,11 @@ body {
   font-family: "cwTeXYen", sans-serif;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 320px) {
   header {
     padding: 20px 0 20px 0;
