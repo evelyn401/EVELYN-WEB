@@ -54,7 +54,13 @@
     #BannerBox{
         width: 100%;
     }
-} 
+    #Banners{
+        #MDBanner{
+            // 隱藏圖片
+            display: none;
+        }
+    }
+    }
 
 #AboutEvelyn{
         // 背景顏色

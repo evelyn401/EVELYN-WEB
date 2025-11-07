@@ -186,6 +186,9 @@ img {
   #Inmain #BannerBox {
     width: 100%;
   }
+  #Inmain #Banners #MDBanner {
+    display: none;
+  }
   #AboutEvelyn {
     background-color: #9da9b5;
   }
