@@ -2,9 +2,11 @@
 
 // sass 分兩種 sass 不寫大括號{}、分號 利用縮排來取代{} 不可空白 不兼容css  scss 要寫大括號{}、分號 兼容css
 
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 // 此檔案（styles.scss）專用彙整引入檔
 // SASS / SCSS 檔名開頭加底線 _ ，表示此檔案不會被編譯成 CSS 檔案; 可以不打副檔名，會自動抓同名的SASS或SCSS檔案
 @import "_01joint/_01reset";
+@import "_01joint/_02joint";
 //@import "_01joint/_03variable";
 //@import "_01joint/_04mixin";
 @import "_02header/_01header";
