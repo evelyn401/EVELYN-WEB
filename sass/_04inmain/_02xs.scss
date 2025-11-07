@@ -50,6 +50,12 @@
         @include Border.Border-radius(10px,10px,10px,10px);
     }
 
+#Inmain{
+    #BannerBox{
+        width: 100%;
+    }
+} 
+
 #AboutEvelyn{
         // 背景顏色
         background-color: Var.$Blue03;

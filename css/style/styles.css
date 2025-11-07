@@ -178,6 +178,9 @@ body {
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
   }
+  #Inmain #BannerBox {
+    width: 100%;
+  }
   #AboutEvelyn {
     background-color: #9da9b5;
   }
