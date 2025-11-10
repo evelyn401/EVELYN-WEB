@@ -265,10 +265,10 @@ img {
     margin: 15px 0;
   }
   #Skills .card p {
-    text-align: justify;
     color: #9da9b5;
     line-height: 1.5;
     font-size: 14px;
+    text-align: center;
     letter-spacing: 0.5px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -464,13 +464,18 @@ img {
     border-bottom-color: #6e7f91;
   }
   #Skills .card {
-    width: 300px;
+    width: 85%;
     padding: 40px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   #Skills .card .cardcontent {
-    width: 95%;
+    width: 40%;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
   #Work {
     background-image: url(../../images/background/work01.jpg);
@@ -522,6 +527,19 @@ img {
 @media screen and (min-width: 1400px) {
   #AboutEvelyn .content {
     width: 50%;
+  }
+  #Skills .card {
+    width: 80%;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Skills .card .cardcontent {
+    width: 10%;
+    margin: 0 auto;
+    margin: 0 20px;
   }
   #Contact .inform #info .butbox input {
     width: 30%;

@@ -71,7 +71,7 @@
         p{
             @extend %Width100;
             // 文字切齊：左右切齊，尾行靠左
-            text-align: justify;
+            // text-align: justify;
             // 文字顏色
             color: Var.$Blue03;
             // 文字行高
@@ -79,7 +79,7 @@
             // 文字大小
             font-size: 14px;
             // 文字置中
-            // text-align: center;
+            text-align: center;
             // 字母間距
             letter-spacing: 0.5px;
 
