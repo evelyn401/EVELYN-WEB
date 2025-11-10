@@ -18,22 +18,22 @@
             >div{
                 >img{
                     // 左邊內間距增加（往右邊移動）
-                    padding-left: 50px;
+                    padding-left: 120px;
                     // 設定 logo 圖片大小
-                    width: 120px;   // 可以調整這個數值
+                    width: 140px;   // 可以調整這個數值
                     height: auto;  // 保持比例
                 }
             }
         }
         >nav{
             // 利用margin設定右側與頁面的距離，將nav往左邊移動
-            margin-right:5-px;
+            margin-right:120px;
             // 顯示方式：區域
             display: block;
         }
         ul{
             li{
-                padding: 0 45px 0 45px;
+                padding: 0 50px 0 50px;
                 a{
             // 設定字型大小
             font-size: 20px;

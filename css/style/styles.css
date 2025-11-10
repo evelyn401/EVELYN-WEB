@@ -117,16 +117,16 @@ img {
 }
 @media screen and (min-width: 992px) {
   header > h1 > div > img {
-    padding-left: 50px;
-    width: 120px;
+    padding-left: 120px;
+    width: 140px;
     height: auto;
   }
   header > nav {
-    margin-right: 5-px;
+    margin-right: 120px;
     display: block;
   }
   header ul li {
-    padding: 0 45px 0 45px;
+    padding: 0 50px 0 50px;
   }
   header ul li a {
     font-size: 20px;
