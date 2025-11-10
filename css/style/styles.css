@@ -90,7 +90,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   header > h1 > div > img {
-    padding-left: 40px;
+    padding-left: 60px;
     width: 120px;
     height: auto;
   }
@@ -117,12 +117,12 @@ img {
 }
 @media screen and (min-width: 992px) {
   header > h1 > div > img {
-    padding-left: 120px;
+    padding-left: 80px;
     width: 140px;
     height: auto;
   }
   header > nav {
-    margin-right: 120px;
+    margin-right: 80px;
     display: block;
   }
   header ul li {
