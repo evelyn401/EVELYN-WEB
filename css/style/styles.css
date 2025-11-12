@@ -553,12 +553,20 @@ img {
     align-items: center;
   }
   #Skills .card .cardcontent {
-    width: 10%;
+    width: 15%;
     margin: 0 auto;
     margin: 0 20px;
   }
   #photobox {
-    width: 40%;
+    width: 80%;
+  }
+  #photobox li {
+    width: 380px;
+    height: 270px;
+  }
+  #photobox li a {
+    font-size: 20px;
+    height: 270px;
   }
   #Contact .inform #info .butbox input {
     width: 30%;

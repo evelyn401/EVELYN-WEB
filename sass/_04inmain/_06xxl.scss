@@ -29,7 +29,7 @@
             // background-color: aqua;
         .cardcontent{
             // 寬度
-            width: 10%;
+            width: 15%;
             //背景顏色
             //background-color: Var.$Blue05;
             // 置中對齊
@@ -42,7 +42,20 @@
 }
     #photobox{
     // 寬度
-    width: 40%;
+    width: 80%;
+    // background-color: lightsalmon;
+    li{
+        // 寬度
+        width: 380px;
+        // 高度
+        height:270px;
+        a{
+            // 文字尺寸
+            font-size: 20px;
+            // 感應區高度
+            height: 270px;
+            }
+    }
 }
     #Contact{
         %btnxxl{
