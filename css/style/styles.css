@@ -557,6 +557,9 @@ img {
     margin: 0 auto;
     margin: 0 20px;
   }
+  #photobox {
+    width: 40%;
+  }
   #Contact .inform #info .butbox input {
     width: 30%;
     height: 35px;
