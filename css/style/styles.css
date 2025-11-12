@@ -490,6 +490,22 @@ img {
   #Work .line {
     border-bottom-color: #EAEAEA;
   }
+  #photobox {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #photobox li {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    margin: 15px 15px;
+  }
+  #photobox li a {
+    font-size: 16px;
+    height: 150px;
+  }
   #Contact {
     background-color: #EAEAEA;
   }
