@@ -528,6 +528,17 @@ img {
   }
 }
 @media screen and (min-width: 992px) {
+  #photobox {
+    width: 90%;
+  }
+  #photobox li {
+    width: 250px;
+    height: 180px;
+  }
+  #photobox li a {
+    font-size: 18px;
+    height: 180px;
+  }
   #Contact .inform #info .butbox input {
     width: 40%;
     font-size: 18px;
