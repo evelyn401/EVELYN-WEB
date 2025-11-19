@@ -94,7 +94,7 @@ img {
 @media screen and (min-width: 768px) {
   header > h1 > a > div > img {
     padding-left: 30px;
-    width: 150px;
+    width: 120px;
     height: auto;
   }
   header > nav {
@@ -121,7 +121,7 @@ img {
 @media screen and (min-width: 992px) {
   header > h1 > a > div > img {
     padding-left: 60px;
-    width: 200px;
+    width: 150px;
     height: auto;
   }
   header > nav {
