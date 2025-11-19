@@ -188,6 +188,7 @@ img {
   }
   #Inmain #BannerBox {
     width: 100%;
+    margin-top: 40px;
   }
   #Inmain #Banners #MDBanner {
     display: none;
