@@ -89,6 +89,11 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   header > h1 > div > img {
     padding-left: 60px;
     width: 120px;
