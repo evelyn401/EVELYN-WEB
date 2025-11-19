@@ -12,11 +12,6 @@
 
 @include Rwd.Rwd(md){
     header{
-        // 停靠位置：固定在最上方
-        position: fixed;
-        top: 0;
-        // 寬度：100%
-        width: 100%;
         >h1{
 
             >div{

@@ -13,6 +13,11 @@
 
 @include Rwd.Rwd(xs){
     header{
+        // 停靠位置：固定在最上方
+        position: fixed;
+        top: 0;
+        // 寬度：100%
+        width: 100%;
         // 高度 (用內間距padding取代高度)固定單位 px
         padding: 20px 0 20px 0;
         background-color: Var.$White01;
