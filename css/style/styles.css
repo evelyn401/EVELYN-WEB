@@ -197,7 +197,7 @@ img {
     background-color: #9da9b5;
   }
   #AboutEvelyn .titlebox {
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 40px;
   }
   #AboutEvelyn .titlebox h2 {
@@ -232,7 +232,7 @@ img {
     background-color: #EAEAEA;
   }
   #Skills .titlebox {
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 40px;
   }
   #Skills .titlebox h2 {
@@ -293,7 +293,7 @@ img {
     background-attachment: fixed;
   }
   #Work .titlebox {
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 40px;
   }
   #Work .titlebox h2 {
@@ -353,7 +353,7 @@ img {
     cursor: pointer;
   }
   #Contact .titlebox {
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 40px;
   }
   #Contact .titlebox h2 {
