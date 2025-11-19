@@ -71,7 +71,10 @@
         @extend %BoxPaddingxs;
 
         .titlebox{
-
+        // 內間距（上）
+        padding-top: 40px;
+        // 外間距（下）
+        margin-bottom: 40px;  
         h2{
         // 文字顏色
         color: Var.$White01;
@@ -85,8 +88,6 @@
         }
     }
         .content{
-            // 內間距（上）
-            padding-top: 20px;
             // 所佔寬度
             width:80%;
             // 置中對齊
@@ -132,8 +133,10 @@
         @extend %BoxPaddingxs;
 
         .titlebox{
+        // 內間距（上）
+        padding-top: 40px;
         // 外間距（下）
-        margin-bottom: 20px;    
+        margin-bottom: 40px;    
         h2{
         // 文字顏色
         color: Var.$Blue02;
@@ -165,8 +168,10 @@
         background-attachment: fixed;
 
         .titlebox{
+        // 內間距（上）
+        padding-top: 40px;
         // 外間距（下）
-        margin-bottom: 20px; 
+        margin-bottom: 40px; 
         h2{
         // 文字顏色
         color: Var.$White02;
@@ -289,8 +294,10 @@
             cursor: pointer;
         }
         .titlebox{
+        // 內間距（上）
+        padding-top: 40px;
         // 外間距（下）
-        margin-bottom: 20px; 
+        margin-bottom: 40px; 
 
         h2{
         // 文字顏色

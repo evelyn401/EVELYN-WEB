@@ -196,6 +196,10 @@ img {
   #AboutEvelyn {
     background-color: #9da9b5;
   }
+  #AboutEvelyn .titlebox {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
   #AboutEvelyn .titlebox h2 {
     color: #F2F2F2;
   }
@@ -203,7 +207,6 @@ img {
     border-bottom-color: #F2F2F2;
   }
   #AboutEvelyn .content {
-    padding-top: 20px;
     width: 80%;
     margin: 0 auto;
   }
@@ -229,7 +232,8 @@ img {
     background-color: #EAEAEA;
   }
   #Skills .titlebox {
-    margin-bottom: 20px;
+    padding-top: 40px;
+    margin-bottom: 40px;
   }
   #Skills .titlebox h2 {
     color: #6e7f91;
@@ -289,7 +293,8 @@ img {
     background-attachment: fixed;
   }
   #Work .titlebox {
-    margin-bottom: 20px;
+    padding-top: 40px;
+    margin-bottom: 40px;
   }
   #Work .titlebox h2 {
     color: #EAEAEA;
@@ -348,7 +353,8 @@ img {
     cursor: pointer;
   }
   #Contact .titlebox {
-    margin-bottom: 20px;
+    padding-top: 40px;
+    margin-bottom: 40px;
   }
   #Contact .titlebox h2 {
     color: #6e7f91;
