@@ -14,20 +14,21 @@
     header{
 
         >h1{
-
-            >div{
-                >img{
+            >a{
+                >div{
+                    >img{
                     // 左邊內間距增加（往右邊移動）
-                    padding-left: 80px;
+                    padding-left: 60px;
                     // 設定 logo 圖片大小
-                    width: 140px;   // 可以調整這個數值
+                    width: 200px;   // 可以調整這個數值
                     height: auto;  // 保持比例
+                    }
                 }
             }
         }
         >nav{
             // 利用margin設定右側與頁面的距離，將nav往左邊移動
-            margin-right:80px;
+            margin-right:60px;
             // 顯示方式：區域
             display: block;
         }

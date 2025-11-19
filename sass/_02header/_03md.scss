@@ -13,20 +13,21 @@
 @include Rwd.Rwd(md){
     header{
         >h1{
-
-            >div{
-                >img{
+            >a{
+                >div{
+                    >img{
                     // 左邊內間距增加（往右邊移動）
-                    padding-left: 60px;
+                    padding-left: 30px;
                     // 設定 logo 圖片大小
-                    width: 120px;   // 可以調整這個數值
+                    width: 150px;   // 可以調整這個數值
                     height: auto;  // 保持比例
+                    }
                 }
             }
         }
         >nav{
             // 利用margin設定右側與頁面的距離，將nav往左邊移動
-            margin-right:50px;
+            margin-right:30px;
             // 顯示方式：區域
             display: block;
         }
