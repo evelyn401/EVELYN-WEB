@@ -105,28 +105,77 @@ export function AddLabelForOptimized($MainId, $Number, $DivClass, $DivClass2, $I
         div2.className = $DivClass2;
         // querySelector 是用來選取特定的元素，在JavaScript中用來操作DOM，專門用來選取符合CSS選擇器的第一個元素，例如：ID、class、標籤名稱等
         // 在 .cardcontent 內動態新增 div 元素，需要指定是哪一個 .cardcontent，這裡使用 querySelectorAll 來選取所有的 .cardcontent，然後根據迴圈的索引 i 來選擇對應的元素
-        document.querySelectorAll("." + $DivClass)[i].appendChild(div2);
+        // document.querySelectorAll("." + $DivClass)[i].appendChild(div2);
+        // 直接在剛建立的 div 內新增 div2,避免使用 querySelectorAll
+        div.appendChild(div2);
 
         // 新增 img 標籤
         let img = document.createElement("img");
         // 設定 img 的 src 屬性
         img.src = $Images;
         // 在 .imagebox 內動態新增 img 元素，需要指定是哪一個 .imagebox，同樣使用 querySelectorAll 來選取所有的 .imagebox，然後根據迴圈的索引 i 來選擇對應的元素
-        document.querySelectorAll("." + $DivClass2)[i].appendChild(img);
+        // document.querySelectorAll("." + $DivClass2)[i].appendChild(img);
+        // 直接在剛建立的 div2 內新增 img
+        div2.appendChild(img);
 
         // 新增 h3 標籤
         let h3 = document.createElement("h3");
         // 寫入文字
         h3.innerText = $Title;
         // 在 .cardcontent 內動態新增 h3 元素，需要指定是哪一個 .cardcontent，使用 querySelectorAll 來選取所有的 .cardcontent，然後根據迴圈的索引 i 來選擇對應的元素
-        document.querySelectorAll("." + $DivClass)[i].appendChild(h3);
+        // document.querySelectorAll("." + $DivClass)[i].appendChild(h3);
+        // 直接在剛建立的 div 內新增 h3
+        div.appendChild(h3);
+
 
         // 新增 p 標籤
         let p = document.createElement("p");
         // 寫入文字
         p.innerText = $Description;
         // 在 .cardcontent 內動態新增 p 元素，需要指定是哪一個 .cardcontent，使用 querySelectorAll 來選取所有的 .cardcontent，然後根據迴圈的索引 i 來選擇對應的元素
-        document.querySelectorAll("." + $DivClass)[i].appendChild(p);
+        // document.querySelectorAll("." + $DivClass)[i].appendChild(p);
+        // 直接在剛建立的 div 內新增 p
+        div.appendChild(p);
+    }
+}
+// 建立多個技能卡片的函式
+export function CreateMultipleCards() {
+    const cardsData = [
+        {
+            // 修改圖片路徑
+            image: "images/icons/ai.png",
+            // 修改標題
+            title: "Graphic Design",
+            // 修改描述文字
+            description: "Illustrator、Business Card Design、Packaging Design、Board game Design" 
+        },
+        {
+            image: "images/icons/UIUX.png",
+            title: "UI&UX Design",
+            description: "Website Design、APP Design、HTML、CSS、SASS、JavaScript、Figma"
+        },
+        {
+            image: "images/icons/pr.png",
+            title: "Video Editing",
+            description: "Premiere、DaVinci Resolve、Final Cut Pro"
+        },
+        {
+            image: "images/icons/draw.png",
+            title: "Procreate",
+            description: "Storybook Design、Calendar Design、Stamp Design"
+        }
+    ];
+    // 使用 for...of 迴圈遍歷陣列
+    for (let card of cardsData) {
+        AddLabelForOptimized(
+            "SkillsCard",      // 主容器 ID
+            1,                 // 每次建立 1 個卡片
+            "cardcontent",     // 卡片內容的 class
+            "imagebox",        // 圖片容器的 class
+            card.image,        // 圖片路徑
+            card.title,        // 標題文字
+            card.description   // 描述文字
+        );
     }
 }
 
