@@ -347,6 +347,11 @@ img {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
+    color: #6e7f91;
+    -webkit-text-fill-color: #4f6d7a;
+  }
+  #Contact .inform #info .labelbox input[type=email]:-webkit-autofill, #Contact .inform #info .labelbox input[type=text]:-webkit-autofill {
+    -webkit-text-fill-color: #4f6d7a !important;
   }
   #Contact .inform #info .butbox input {
     width: 45%;
@@ -406,6 +411,7 @@ img {
     max-width: 92%;
     max-height: 240px;
     padding: 5px 10px;
+    color: #4f6d7a;
   }
   #Contact .inform #info .butbox {
     display: flex;

@@ -280,6 +280,14 @@
             padding: 8px;
             // 物件寬度以邊框為主，避免設定寬度後，邊框線條加上去，物件寬度超出設定值
             box-sizing: border-box;
+            // 文字顏色
+            color: Var.$Blue02;
+            // 強制覆蓋瀏覽器預設樣式
+            -webkit-text-fill-color: Var.$Blue04;
+            // 移除自動填入背景色
+            &:-webkit-autofill {
+            -webkit-text-fill-color: Var.$Blue04 !important;
+            }
         }
         %btn{
             // 寬度
@@ -404,6 +412,8 @@
                 max-height: 240px;
                 // 文字上左間距
                 padding: 5px 10px;
+                // 文字顏色
+                color: Var.$Blue04;
                 }
             }
             .butbox{
