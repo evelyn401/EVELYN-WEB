@@ -301,7 +301,7 @@
         // 內間距（上）
         padding-top: 60px;
         // 外間距（下）
-        margin-bottom: 40px; 
+        margin-bottom: 40px;
 
         h2{
         // 文字顏色
@@ -330,6 +330,9 @@
         color: Var.$Blue02;
         // 重新指定定位點（相對定位）
         position: relative;
+        // 層疊順序
+        z-index: 1;
+
 
         .box{
             // 寬度
