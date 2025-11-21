@@ -400,6 +400,7 @@ img {
   }
   #Contact .inform #info .labelbox {
     padding-bottom: 5px;
+    accent-color: #4f6d7a;
   }
   #Contact .inform #info .labelbox label {
     line-height: 20px;
