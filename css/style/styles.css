@@ -586,6 +586,13 @@ img {
     margin: 0 20px;
     min-height: 280px;
   }
+  #Skills .card .cardcontent .imagebox {
+    height: 140px;
+  }
+  #Skills .card .cardcontent .imagebox img {
+    max-height: 120px;
+    max-width: 120px;
+  }
   #photobox {
     width: 70%;
   }

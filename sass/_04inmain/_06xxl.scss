@@ -39,6 +39,19 @@
             margin: 0 20px;
             // 最小高度統一
             min-height: 280px;
+            .imagebox{
+                // xxl 尺寸時圖片容器高度
+                height: 140px;
+                // background-color: lightgreen;
+                
+                img{
+                    // 圖片最大高度
+                    max-height: 120px;
+                    // 圖片最大寬度
+                    max-width: 120px;
+                    // background-color: lightcoral;
+                }
+            }
         }
     }
 }
