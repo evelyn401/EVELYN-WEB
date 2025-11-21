@@ -255,6 +255,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    min-height: 180px;
   }
   #Skills .card .imagebox {
     display: flex;
@@ -488,6 +489,7 @@ img {
     width: 30%;
     margin: 0 auto;
     margin-bottom: 30px;
+    min-height: 200px;
   }
   #Work {
     background-image: url(../../images/background/work01.jpg);
@@ -540,6 +542,9 @@ img {
   }
 }
 @media screen and (min-width: 992px) {
+  #Skills .card .cardcontent {
+    min-height: 250px;
+  }
   #photobox {
     width: 90%;
   }
@@ -579,6 +584,7 @@ img {
     width: 15%;
     margin: 0 auto;
     margin: 0 20px;
+    min-height: 280px;
   }
   #photobox {
     width: 70%;

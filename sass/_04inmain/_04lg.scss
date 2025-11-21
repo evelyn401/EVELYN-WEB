@@ -3,6 +3,15 @@
 
 @include Rwd.Rwd(lg) {
 
+#Skills{
+        .card{
+            .cardcontent{
+            // 最小高度統一
+            min-height: 250px;
+        }
+    }
+}
+
 #photobox{
     // 寬度
     width: 90%;

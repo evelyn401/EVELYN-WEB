@@ -36,6 +36,8 @@
             align-items: center;
             // 換行
             flex-wrap: wrap;
+            // 最小高度統一
+            min-height: 180px;
         }
 
         .imagebox{
