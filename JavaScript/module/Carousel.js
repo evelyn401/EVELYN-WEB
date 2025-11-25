@@ -27,4 +27,8 @@ export function Carousel(){
         // 讀取圖片索引值 加入類別
         images[index].classList.add('Active');
     }
+
+    // 自動播放功能，每隔一段時間切換圖片，直到使用者手動切換為止
+    // 設定每3秒切換一次圖片
+    let autoPlayInterval = setInterval(showNextImage, 3000); 
 }
