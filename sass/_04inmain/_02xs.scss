@@ -60,7 +60,7 @@
         width: 100%;
         // 限制寬度
         max-width: 600px;
-        // 多的部分隱藏
+        // 隱藏溢出內容、清除浮動
         overflow: hidden;
         // 定位點：相對定位
         position: relative;
