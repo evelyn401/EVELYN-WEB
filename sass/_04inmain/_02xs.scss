@@ -57,6 +57,22 @@
         margin-top: 40px;
     }
     #Banners{
+        width: 100%;
+        // 限制寬度
+        max-width: 600px;
+        // 多的部分隱藏
+        overflow: hidden;
+        // 定位點：相對定位
+        position: relative;
+        .Images{
+            width: 100%;
+            // 隱藏
+            display: none;
+        }
+        .Active{
+            // 顯示
+            display: block;
+        }
             .ImgColor1{
             width: 100%;
             background-color:rgb(199, 199, 30);
