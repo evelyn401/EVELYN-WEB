@@ -1,3 +1,3 @@
-export function Carousel{
-    
+export function Carousel(){
+
 }
