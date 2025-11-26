@@ -189,11 +189,11 @@ img {
   }
   #Inmain #BannerBox {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 70px;
   }
   #Inmain #Banners {
     width: 100%;
-    max-width: 600px;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
   }
@@ -208,15 +208,12 @@ img {
   }
   #Inmain #Banners .ImgColor1 {
     width: 100%;
-    background-color: rgb(199, 199, 30);
   }
   #Inmain #Banners .ImgColor2 {
     width: 100%;
-    background-color: rgb(96, 131, 131);
   }
   #Inmain #Banners .ImgColor3 {
     width: 100%;
-    background-color: rgb(245, 223, 112);
   }
   #Inmain #Banners #MDBanner {
     display: none;
@@ -474,7 +471,7 @@ img {
   #Inmain #BannerBox {
     width: 100%;
   }
-  #Inmain #Banners #phoneBanner {
+  #Inmain #Banners #PhoneBanner {
     display: none;
   }
   #Inmain #Banners #MDBanner {

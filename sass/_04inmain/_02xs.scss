@@ -54,12 +54,14 @@
     #BannerBox{
         width: 100%;
         // 高度
-        margin-top: 40px;
+        margin-top: 70px;
     }
     #Banners{
         width: 100%;
         // 限制寬度
-        max-width: 600px;
+        // max-width: 600px;
+        // 置中對齊
+        margin: 0 auto;
         // 隱藏溢出內容、清除浮動
         overflow: hidden;
         // 定位點：相對定位
@@ -82,15 +84,15 @@
         }
             .ImgColor1{
             width: 100%;
-            background-color:rgb(199, 199, 30);
+            // background-color:rgb(199, 199, 30);
             }
             .ImgColor2{
             width: 100%;
-            background-color:rgb(96, 131, 131);
+            // background-color:rgb(96, 131, 131);
             }
             .ImgColor3{
             width: 100%;
-            background-color:rgb(245, 223, 112);
+            // background-color:rgb(245, 223, 112);
             }
         #MDBanner{
             // 隱藏圖片
