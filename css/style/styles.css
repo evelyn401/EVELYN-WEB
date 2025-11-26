@@ -498,7 +498,6 @@ img {
   }
   #AboutEvelyn .content .intro {
     width: 50%;
-    text-align: center;
     font-size: 18px;
     padding: 15px 15px;
     box-sizing: border-box;
@@ -581,6 +580,9 @@ img {
   }
 }
 @media screen and (min-width: 992px) {
+  #AboutEvelyn .content .imgbox {
+    padding-top: 15px;
+  }
   #Skills .card .cardcontent {
     min-height: 250px;
   }
@@ -610,6 +612,9 @@ img {
 @media screen and (min-width: 1400px) {
   #AboutEvelyn .content {
     width: 50%;
+  }
+  #AboutEvelyn .content .imgbox {
+    padding-top: 5px;
   }
   #Skills .card {
     width: 80%;

@@ -2,6 +2,15 @@
 @use "../_01joint/_03variable" as Var;
 
 @include Rwd.Rwd(lg) {
+#AboutEvelyn{
+
+        .content{
+            .imgbox{
+                //內間距（上）
+                padding-top: 15px;
+            }
+        }
+}
 
 #Skills{
         .card{
