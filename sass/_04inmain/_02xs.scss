@@ -54,7 +54,7 @@
     #BannerBox{
         width: 100%;
         // 高度
-        margin-top: 70px;
+        margin-top: 45px;
     }
     #Banners{
         width: 100%;
@@ -66,6 +66,8 @@
         overflow: hidden;
         // 定位點：相對定位
         position: relative;
+        // 設定容器高度,避免絕對定位的圖片無法撐開容器
+        min-height: 350px;
         .Images{
             width: 100%;
             // 隱藏
@@ -92,7 +94,7 @@
             }
             .ImgColor3{
             width: 100%;
-            // background-color:rgb(245, 223, 112);
+            //background-color:rgb(245, 223, 112);
             }
         #MDBanner{
             // 隱藏圖片

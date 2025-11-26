@@ -189,13 +189,14 @@ img {
   }
   #Inmain #BannerBox {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 45px;
   }
   #Inmain #Banners {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    min-height: 350px;
   }
   #Inmain #Banners .Images {
     width: 100%;
