@@ -54,7 +54,7 @@
     #BannerBox{
         width: 100%;
         // 高度
-        margin-top: 45px;
+        margin-top: 80px;
     }
     #Banners{
         width: 100%;
@@ -66,6 +66,10 @@
         position: relative;
         // 設定容器高度,避免絕對定位的圖片無法撐開容器
         min-height: 350px;
+        // 讓容器支援置中對齊
+        display: flex;
+        align-items: center;
+        justify-content: center;
         .Images{
             width: 100%;
             // 隱藏
@@ -75,6 +79,12 @@
             transition: opacity 0.5s ease-in-out;
             // 定位點：絕對定位
             position: absolute;
+            // 水平垂直置中
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            // 圖片填滿容器且不變形
+            object-fit: cover;
 
         }
         .Active{
