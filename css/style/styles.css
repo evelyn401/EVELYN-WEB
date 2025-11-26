@@ -191,34 +191,34 @@ img {
     width: 100%;
     margin-top: 40px;
   }
-  #Inmain #Banners {
+  #Inmain #PhoneBanners {
     width: 100%;
     max-width: 600px;
     overflow: hidden;
     position: relative;
   }
-  #Inmain #Banners .Images {
+  #Inmain #PhoneBanners .Images {
     width: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     position: absolute;
   }
-  #Inmain #Banners .Active {
+  #Inmain #PhoneBanners .Active {
     opacity: 1;
   }
-  #Inmain #Banners .ImgColor1 {
+  #Inmain #PhoneBanners .ImgColor1 {
     width: 100%;
     background-color: rgb(199, 199, 30);
   }
-  #Inmain #Banners .ImgColor2 {
+  #Inmain #PhoneBanners .ImgColor2 {
     width: 100%;
     background-color: rgb(96, 131, 131);
   }
-  #Inmain #Banners .ImgColor3 {
+  #Inmain #PhoneBanners .ImgColor3 {
     width: 100%;
     background-color: rgb(245, 223, 112);
   }
-  #Inmain #Banners #MDBanner {
+  #Inmain #PhoneBanners #MDBanner {
     display: none;
   }
   #AboutEvelyn {
@@ -474,10 +474,10 @@ img {
   #Inmain #BannerBox {
     width: 100%;
   }
-  #Inmain #Banners #phoneBanner {
+  #Inmain #PhoneBanners #phoneBanner {
     display: none;
   }
-  #Inmain #Banners #MDBanner {
+  #Inmain #PhoneBanners #MDBanner {
     display: block;
   }
   #AboutEvelyn .titlebox .line {
