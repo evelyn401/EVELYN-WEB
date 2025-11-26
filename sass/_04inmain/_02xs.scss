@@ -67,11 +67,18 @@
         .Images{
             width: 100%;
             // 隱藏
-            display: none;
+            // display: none;
+            // 淡入淡出
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            // 定位點：絕對定位
+            position: absolute;
         }
         .Active{
             // 顯示
-            display: block;
+            // display: block;
+            // 顯示（淡入淡出）
+            opacity: 1;
         }
             .ImgColor1{
             width: 100%;
