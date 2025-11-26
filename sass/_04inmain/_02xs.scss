@@ -75,12 +75,6 @@
             transition: opacity 0.5s ease-in-out;
             // 定位點：絕對定位
             position: absolute;
-            // 水平垂直置中
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            // 確保圖片完整顯示
-            object-fit: contain;
 
         }
         .Active{
