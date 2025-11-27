@@ -55,6 +55,24 @@
         width: 100%;
         // 高度
         margin-top: 80px;
+
+        .controls {
+            // 定位點：絕對定位
+            position: absolute;
+            // 靠上
+            top: 35%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                background-color: Var.$Blue02;
+                color: Var.$White01;
+                border: none;
+                padding: 10px 10px;
+                
+            }
+        }
     }
     #Banners{
         width: 100%;

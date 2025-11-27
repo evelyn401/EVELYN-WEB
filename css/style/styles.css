@@ -191,6 +191,19 @@ img {
     width: 100%;
     margin-top: 80px;
   }
+  #Inmain #BannerBox .controls {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #Inmain #BannerBox .controls button {
+    background-color: #6e7f91;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 10px;
+  }
   #Inmain #Banners {
     width: 100%;
     overflow: hidden;
