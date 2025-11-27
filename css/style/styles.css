@@ -644,7 +644,6 @@ img {
 @media screen and (min-width: 1400px) {
   #Inmain #BannerBox {
     width: 100%;
-    margin-top: 150px;
   }
   #Inmain #BannerBox .controls {
     top: 30%;
@@ -661,8 +660,8 @@ img {
   #AboutEvelyn .content {
     width: 50%;
   }
-  #AboutEvelyn .content .imgbox {
-    padding-top: 5px;
+  #AboutEvelyn .content .intro {
+    margin-top: 30px;
   }
   #Skills .card {
     width: 80%;

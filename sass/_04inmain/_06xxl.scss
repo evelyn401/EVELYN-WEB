@@ -6,8 +6,6 @@
 #Inmain{
     #BannerBox{
         width: 100%;
-        // 高度
-        margin-top: 150px;
 
         .controls {
             // 靠上
@@ -33,11 +31,11 @@
         .content{
             // 所佔寬度
             width:50%;
-            .imgbox{
-                //內間距（上）
-                padding-top: 5px;
+            .intro{
+                // 外間距（上）
+                margin-top: 30px;
             }
-    }
+        }
     }
     #Skills{
         .card{
