@@ -199,7 +199,8 @@ img {
     justify-content: space-between;
   }
   #Inmain #BannerBox .controls button {
-    background-color: #6e7f91;
+    background-color: #4f6d7a;
+    opacity: 0.5;
     color: #F2F2F2;
     border: none;
     padding: 10px;

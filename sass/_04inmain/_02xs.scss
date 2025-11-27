@@ -66,8 +66,11 @@
             justify-content: space-between;
 
             button{
-                background-color: Var.$Blue02;
+                background-color: Var.$Blue04;
+                // 透明度
+                opacity: 0.5;
                 color: Var.$White01;
+                // 取消邊框
                 border: none;
                 padding: 10px;
                 // 手形游標
