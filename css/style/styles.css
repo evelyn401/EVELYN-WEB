@@ -190,10 +190,11 @@ img {
   #Inmain #BannerBox {
     width: 100%;
     margin-top: 80px;
+    position: relative;
   }
   #Inmain #BannerBox .controls {
     position: absolute;
-    top: 35%;
+    top: 40%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -498,9 +499,6 @@ img {
   #Inmain #BannerBox {
     width: 100%;
   }
-  #Inmain #BannerBox .controls {
-    top: 23%;
-  }
   #Inmain #BannerBox .controls button {
     font-size: 16px;
   }
@@ -610,9 +608,6 @@ img {
     width: 100%;
     margin-top: 100px;
   }
-  #Inmain #BannerBox .controls {
-    top: 25%;
-  }
   #Inmain #BannerBox .controls button {
     font-size: 14px;
     padding: 15px;
@@ -649,9 +644,6 @@ img {
 @media screen and (min-width: 1400px) {
   #Inmain #BannerBox {
     width: 100%;
-  }
-  #Inmain #BannerBox .controls {
-    top: 30%;
   }
   #Inmain #BannerBox .controls button {
     font-size: 20px;

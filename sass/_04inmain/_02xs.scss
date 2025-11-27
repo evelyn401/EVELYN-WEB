@@ -55,12 +55,14 @@
         width: 100%;
         // 高度
         margin-top: 80px;
+        // 定位點：相對定位
+        position: relative;
 
         .controls {
             // 定位點：絕對定位
             position: absolute;
             // 靠上
-            top: 35%;
+            top: 40%;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -75,7 +77,6 @@
                 padding: 10px;
                 // 手形游標
                 cursor: pointer;
-
             }
         }
     }
