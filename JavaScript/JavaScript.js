@@ -1,7 +1,7 @@
 // 導入模塊
 import { Years } from "./module/DateModule.js";
 import { AddLabel, AddLabelFor, AddLabelForOptimized, PhotoBox, PhotoBoxFor, PhotoBoxForArray, PhotoBoxDataArray, CreateMultipleCards} from "./module/AddLabel.js";
-import { Carousel} from "./module/Carousel.js";
+import { Carousel, CarouselTwo} from "./module/Carousel.js";
 
 // 執行函式
 Years();
@@ -13,4 +13,5 @@ Years();
 // PhotoBoxForArray();
 PhotoBoxDataArray();
 CreateMultipleCards();
-Carousel();
+// Carousel();
+CarouselTwo();
