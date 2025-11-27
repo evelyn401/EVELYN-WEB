@@ -438,7 +438,15 @@
             // top: -90px;
             // 重置後改上移40px即可
             top: -40px;
+            img{
+                // 大小
+                width: 60%;
+                height: auto;
+                // 向右移動 (padding）
+                padding: 0 0 0 20px;
+            }
         }
+        
         #info{
             // 同一父框架的子物件，可用一對多的方式讀取樣式；不同父框架的子物件，需用繼承讀取樣式，可跨區塊使用
             .labeltextsize{

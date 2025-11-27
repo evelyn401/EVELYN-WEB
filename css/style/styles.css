@@ -435,6 +435,11 @@ img {
     right: -15px;
     top: -40px;
   }
+  #Contact .inform .box img {
+    width: 60%;
+    height: auto;
+    padding: 0 0 0 20px;
+  }
   #Contact .inform #info .labeltextsize {
     font-size: 12px;
     font-weight: bold;
