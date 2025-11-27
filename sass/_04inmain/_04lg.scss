@@ -2,6 +2,24 @@
 @use "../_01joint/_03variable" as Var;
 
 @include Rwd.Rwd(lg) {
+
+#Inmain{
+    #BannerBox{
+        width: 100%;
+
+        .controls {
+            // 靠上
+            top: 18%;
+
+            button{
+                // 文字尺寸
+                font-size: 14px;
+                padding: 15px;
+            }
+        }
+    }
+}
+
 #AboutEvelyn{
 
         .content{

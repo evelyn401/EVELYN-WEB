@@ -601,6 +601,16 @@ img {
   }
 }
 @media screen and (min-width: 992px) {
+  #Inmain #BannerBox {
+    width: 100%;
+  }
+  #Inmain #BannerBox .controls {
+    top: 18%;
+  }
+  #Inmain #BannerBox .controls button {
+    font-size: 14px;
+    padding: 15px;
+  }
   #AboutEvelyn .content .imgbox {
     padding-top: 15px;
   }
@@ -645,12 +655,6 @@ img {
     width: 50%;
     min-height: 600px;
     margin: 0 auto;
-  }
-  #Inmain #Banners #PhoneBanner {
-    display: none;
-  }
-  #Inmain #Banners #MDBanner {
-    display: block;
   }
   #AboutEvelyn .content {
     width: 50%;
