@@ -7,6 +7,8 @@ export function Carousel(){
     const totalImages = images.length;
 
     // 上一張 下一張按鈕
+    document.getElementById('NextBtn').addEventListener('click', showNextImage);
+    document.getElementById('PrevBtn').addEventListener('click', showPreviousImage);
 
     // 下一張圖片的函數（右手邊按鈕））
     function showNextImage(){
