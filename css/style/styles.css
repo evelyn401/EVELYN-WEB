@@ -202,7 +202,8 @@ img {
     background-color: #6e7f91;
     color: #F2F2F2;
     border: none;
-    padding: 10px 10px;
+    padding: 10px;
+    cursor: pointer;
   }
   #Inmain #Banners {
     width: 100%;

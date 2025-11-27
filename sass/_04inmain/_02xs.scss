@@ -69,8 +69,9 @@
                 background-color: Var.$Blue02;
                 color: Var.$White01;
                 border: none;
-                padding: 10px 10px;
-                
+                padding: 10px;
+                // 手形游標
+                cursor: pointer;
             }
         }
     }
