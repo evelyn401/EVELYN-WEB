@@ -671,7 +671,7 @@ img {
     align-items: center;
   }
   #Skills .card .cardcontent {
-    width: 15%;
+    width: 10%;
     margin: 0 auto;
     margin: 0 20px;
     min-height: 280px;
@@ -684,7 +684,7 @@ img {
     max-width: 120px;
   }
   #photobox {
-    width: 70%;
+    width: 50%;
   }
   #photobox li {
     width: 340px;
