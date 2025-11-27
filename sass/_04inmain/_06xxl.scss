@@ -3,6 +3,37 @@
 
 @include Rwd.Rwd(xxl){
 
+#Inmain{
+    #BannerBox{
+        width: 100%;
+
+        .controls {
+            // 靠上
+            top: 25%;
+
+            button{
+                // 文字尺寸
+                font-size: 20px;
+                padding: 20px;
+            }
+        }
+    }
+    #Banners{
+        width: 50%;
+        // 設定容器高度,避免絕對定位的圖片無法撐開容器
+        min-height: 600px;
+        // 置中對齊
+        margin: 0 auto;
+        #PhoneBanner{
+            // 隱藏圖片
+            display: none;
+        }
+        #MDBanner{
+            display: block;
+    }
+    }
+}
+
     #AboutEvelyn{
         .content{
             // 所佔寬度

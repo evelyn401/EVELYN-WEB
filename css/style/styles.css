@@ -493,6 +493,12 @@ img {
   #Inmain #BannerBox {
     width: 100%;
   }
+  #Inmain #BannerBox .controls {
+    top: 23%;
+  }
+  #Inmain #BannerBox .controls button {
+    font-size: 16px;
+  }
   #Inmain #Banners #PhoneBanner {
     display: none;
   }
@@ -625,6 +631,27 @@ img {
   }
 }
 @media screen and (min-width: 1400px) {
+  #Inmain #BannerBox {
+    width: 100%;
+  }
+  #Inmain #BannerBox .controls {
+    top: 25%;
+  }
+  #Inmain #BannerBox .controls button {
+    font-size: 20px;
+    padding: 20px;
+  }
+  #Inmain #Banners {
+    width: 50%;
+    min-height: 600px;
+    margin: 0 auto;
+  }
+  #Inmain #Banners #PhoneBanner {
+    display: none;
+  }
+  #Inmain #Banners #MDBanner {
+    display: block;
+  }
   #AboutEvelyn .content {
     width: 50%;
   }
