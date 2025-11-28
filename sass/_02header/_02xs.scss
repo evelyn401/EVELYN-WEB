@@ -70,7 +70,13 @@
             z-index: 11;
             // 位置：從 header 底下開始
             top: 80px;
-            background-color: Var.$Blue04;
+            background-color: Var.$Yellow01;
+
+            #NavItem{
+                width: 80%;
+                // 物件置中
+                margin: 0 auto;
+            }
         }
 
         >div{

@@ -86,7 +86,11 @@ img {
     position: absolute;
     z-index: 11;
     top: 80px;
-    background-color: #4f6d7a;
+    background-color: #bfa88c;
+  }
+  header > nav #NavItem {
+    width: 80%;
+    margin: 0 auto;
   }
   header > div {
     display: flex;
