@@ -73,9 +73,10 @@
             background-color: Var.$Yellow01;
 
             #NavItem{
-                width: 80%;
-                // 物件置中
-                margin: 0 auto;
+                // 留白
+                padding: 20px;
+                // 總寬不變，內縮
+                box-sizing: border-box;
             }
         }
 

@@ -89,8 +89,8 @@ img {
     background-color: #bfa88c;
   }
   header > nav #NavItem {
-    width: 80%;
-    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
   }
   header > div {
     display: flex;
