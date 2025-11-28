@@ -3,10 +3,18 @@ export function SwitchTab() {
     let MenuBtn = document.getElementById("MenuBtn");
     // 宣告變數 讀取導覽列
     let NavBox = document.getElementById("NavBox");
+    // 宣告變數 讀取關閉按鈕
+    let Close = document.getElementById("Close");
 
     // 點擊選單按鈕時
     MenuBtn.addEventListener("click", function() {
         // 切換導覽列的顯示狀態
         NavBox.style.display = "block";
+    });
+
+    // 點擊關閉按鈕時
+    Close.addEventListener("click", function() {
+        // 切換導覽列的顯示狀態
+        NavBox.style.display = "none";
     });
 }
