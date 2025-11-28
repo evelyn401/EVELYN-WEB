@@ -34,6 +34,8 @@
             position: static;
             // 高度恢復自動
             height: auto;
+            // 背景顏色恢復透明
+            background-color: transparent;
         }
         // 利用子孫選取器，選取 nav 底下的 ul，直接打ul
         ul{
