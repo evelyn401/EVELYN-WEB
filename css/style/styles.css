@@ -81,13 +81,12 @@ img {
   }
   header > nav {
     display: none;
-    color: #F2F2F2;
     width: 100%;
     height: 100vh;
     position: absolute;
     z-index: 11;
     top: 80px;
-    background-color: aqua;
+    background-color: #4f6d7a;
   }
   header > div {
     display: flex;
@@ -118,6 +117,9 @@ img {
   header ul {
     display: flex;
     justify-content: space-around;
+  }
+  header ul #Close {
+    display: none;
   }
   header ul li {
     padding: 0 30px 0 30px;

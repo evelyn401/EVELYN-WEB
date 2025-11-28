@@ -61,8 +61,6 @@
         >nav{
             // 顯示方式：隱藏
             display: none;
-            // 文字顏色
-            color: Var.$White01;
             width: 100%;
             // vh單位 高度為視窗高度的百分比，相對單位，但會展開高度
             height: 100vh;
@@ -72,7 +70,7 @@
             z-index: 11;
             // 位置：從 header 底下開始
             top: 80px;
-            background-color: aqua;
+            background-color: Var.$Blue04;
         }
 
         >div{

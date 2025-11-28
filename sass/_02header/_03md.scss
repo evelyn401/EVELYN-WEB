@@ -48,6 +48,10 @@
             display: flex;
             // 子元素的排列方式：水平排列
             justify-content: space-around;
+            #Close{
+                // 顯示方式：隱藏
+                display: none;
+            }
 
         li{
             padding: 0 30px 0 30px;
