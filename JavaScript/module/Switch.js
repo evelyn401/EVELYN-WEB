@@ -7,6 +7,6 @@ export function SwitchTab() {
     // 點擊選單按鈕時
     MenuBtn.addEventListener("click", function() {
         // 切換導覽列的顯示狀態
-        NavBox.classList.toggle("active");
+        NavBox.style.display = "block";
     });
 }
