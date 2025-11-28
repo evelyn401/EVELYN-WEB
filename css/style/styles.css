@@ -106,12 +106,14 @@ img {
     height: auto;
   }
   header > nav {
+    margin-right: 30px;
     display: block;
     position: static;
     height: auto;
     background-color: transparent;
     display: flex;
     justify-content: center;
+    width: auto;
   }
   header ul {
     display: flex;
