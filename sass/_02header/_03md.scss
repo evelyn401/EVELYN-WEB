@@ -30,6 +30,8 @@
             margin-right:30px;
             // 顯示方式：區域
             display: block;
+            // 定位恢復為 靜態定位
+            position: static;
         }
         // 利用子孫選取器，選取 nav 底下的 ul，直接打ul
         ul{
