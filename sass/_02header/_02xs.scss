@@ -77,6 +77,22 @@
                 padding: 20px;
                 // 總寬不變，內縮
                 box-sizing: border-box;
+
+                #Close{
+                    // 文字顏色
+                    color: Var.$White02;
+                    // 文字尺寸 
+                    font-size: 14px;
+                    // 寬度（為設定按鈕感應區域）
+                    width: 60px;
+                    // 文字對齊
+                    text-align: center;
+                    // 內間距（上下增加感應區域）
+                    padding: 15px 0;
+                    background-color: aqua;
+                    // 按鈕置右
+                    margin-left: auto;
+                }
             }
         }
 
