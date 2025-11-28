@@ -2,6 +2,7 @@
 import { Years } from "./module/DateModule.js";
 import { AddLabel, AddLabelFor, AddLabelForOptimized, PhotoBox, PhotoBoxFor, PhotoBoxForArray, PhotoBoxDataArray, CreateMultipleCards} from "./module/AddLabel.js";
 import { Carousel, CarouselTwo} from "./module/Carousel.js";
+import { SwitchTab } from "./module/Switch.js";
 
 // 執行函式
 Years();
@@ -15,3 +16,4 @@ PhotoBoxDataArray();
 CreateMultipleCards();
 // Carousel();
 CarouselTwo();
+SwitchTab();

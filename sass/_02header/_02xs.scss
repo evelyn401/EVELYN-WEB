@@ -17,6 +17,7 @@
         position: fixed;
         // 層疊順序 - 確保導覽列在最上層
         z-index: 10;
+
         top: 0;
         // 寬度：100%
         width: 100%;
@@ -60,6 +61,18 @@
         >nav{
             // 顯示方式：隱藏
             display: none;
+            // 文字顏色
+            color: Var.$White01;
+            width: 100%;
+            // vh單位 高度為視窗高度的百分比，相對單位，但會展開高度
+            height: 100vh;
+            // 定位點：絕對定位
+            position: absolute;
+            // 階層位置
+            z-index: 11;
+            // 位置：從 header 底下開始
+            top: 80px;
+            background-color: aqua;
         }
 
         >div{
