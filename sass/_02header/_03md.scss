@@ -26,9 +26,8 @@
             }
         }
         >nav{
-            width: 100%;
             // 利用margin設定右側與頁面的距離，將nav往左邊移動
-            margin-right:30px;
+            // margin-right:30px;
             // 顯示方式：區域
             display: block;
             // 定位恢復為 靜態定位
@@ -37,6 +36,9 @@
             height: auto;
             // 背景顏色恢復透明
             background-color: transparent;
+            // 水平置中
+            display: flex;
+            justify-content: center;
         }
         // 利用子孫選取器，選取 nav 底下的 ul，直接打ul
         ul{
