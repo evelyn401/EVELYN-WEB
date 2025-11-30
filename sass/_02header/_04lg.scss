@@ -31,15 +31,23 @@
             margin-right:60px;
             // 顯示方式：區域
             display: block;
-        }
-        ul{
+        #NavItem{
+
+            .TextStyle{
+                        a{
+                            // 設定字型大小
+                            font-size: 20px;
+                        }
+                    }
+
             li{
                 padding: 0 50px 0 50px;
                 a{
                 // 設定字型大小
                 font-size: 20px;
-            }
+                }
             }
         }
     }
-};
+}
+}
