@@ -6,6 +6,15 @@ export function SwitchTab() {
     // 宣告變數 讀取關閉按鈕
     let Close = document.getElementById("Close");
 
+    // 宣告變數 讀取 About 按鈕
+    let AboutBtn = document.getElementById("AboutBtn");
+    // 宣告變數 讀取 Skills 按鈕
+    let SkillBtn = document.getElementById("SkillBtn");
+    // 宣告變數 讀取 Work 按鈕
+    let WorkBtn = document.getElementById("WorkBtn");
+    // 宣告變數 讀取 Contact 按鈕
+    let ContactBtn = document.getElementById("ContactBtn");
+
     // 點擊選單按鈕時
     MenuBtn.addEventListener("click", function() {
         // 切換導覽列的顯示狀態
@@ -14,6 +23,26 @@ export function SwitchTab() {
 
     // 點擊關閉按鈕時
     Close.addEventListener("click", function() {
+        // 切換導覽列的顯示狀態
+        NavBox.style.display = "none";
+    });
+    // 點擊 About 按鈕時
+    AboutBtn.addEventListener("click", function() {
+        // 切換導覽列的顯示狀態
+        NavBox.style.display = "none";
+    });
+    // 點擊 Skills 按鈕時
+    SkillBtn.addEventListener("click", function() {
+        // 切換導覽列的顯示狀態
+        NavBox.style.display = "none";
+    });
+    // 點擊 Work 按鈕時
+    WorkBtn.addEventListener("click", function() {
+        // 切換導覽列的顯示狀態
+        NavBox.style.display = "none";
+    });
+    // 點擊 Contact 按鈕時
+    ContactBtn.addEventListener("click", function() {
         // 切換導覽列的顯示狀態
         NavBox.style.display = "none";
     });

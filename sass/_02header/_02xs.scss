@@ -99,10 +99,12 @@
                     width: 50%;
                     // 文字對齊：置中
                     text-align: center;
-                    // 上方外間距
+                    // 外間距
                     margin: 30px auto 0px auto;
                     // 底線
                     border-bottom: 2px solid Var.$White02;
+                    // 底線間距
+                    padding-bottom: 10px;
 
                     a{
                         // 超連結文字顏色
