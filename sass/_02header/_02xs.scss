@@ -92,6 +92,21 @@
                     // background-color: aqua;
                     // 按鈕置右
                     margin-left: auto;
+                    background-color: Var.$Blue04;
+                }
+                .TextStyle{
+                    // 文字對齊：置中
+                    text-align: center;
+                    // 上方外間距
+                    margin-top: 30px;
+                    a{
+                        // 超連結文字顏色
+                        color: Var.$Blue04;
+                        // 取消超連結底線
+                        text-decoration: none;
+                        // 設定字型大小
+                        font-size: 20px;
+                    }
                 }
             }
         }
