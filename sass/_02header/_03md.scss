@@ -57,6 +57,8 @@
                 }
                 .TextStyle{
                         margin-top: 0;
+                        // 取消底線樣式
+                        border-bottom: none;
                         a{
                             // 超連結文字顏色
                             color: Var.$Blue;

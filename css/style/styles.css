@@ -102,8 +102,10 @@ img {
     background-color: rgb(187, 120, 12);
   }
   header > nav #NavItem .TextStyle {
+    width: 50%;
     text-align: center;
-    margin-top: 30px;
+    margin: 30px auto 0px auto;
+    border-bottom: 2px solid #EAEAEA;
   }
   header > nav #NavItem .TextStyle a {
     color: #EAEAEA;
@@ -146,6 +148,7 @@ img {
   }
   header > nav #NavItem .TextStyle {
     margin-top: 0;
+    border-bottom: none;
   }
   header > nav #NavItem .TextStyle a {
     color: #4a5a6a;

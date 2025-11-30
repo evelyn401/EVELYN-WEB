@@ -95,10 +95,14 @@
                     background-color: rgb(187, 120, 12);
                 }
                 .TextStyle{
+                    // 寬度
+                    width: 50%;
                     // 文字對齊：置中
                     text-align: center;
                     // 上方外間距
-                    margin-top: 30px;
+                    margin: 30px auto 0px auto;
+                    // 底線
+                    border-bottom: 2px solid Var.$White02;
 
                     a{
                         // 超連結文字顏色
