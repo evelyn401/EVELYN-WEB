@@ -106,11 +106,20 @@ export function CarouselTwo(){
     }
     
 
-    // 自動播放功能,每隔一段時間切換圖片
+    // 啟動自動輪播 每三秒顯示下一張圖片
     // 設定每3秒切換一次圖片
     function startAutoPlay(){
         autoPlayInterval = setInterval(showNextImage, 3000);
     }
+
+    // 停止自動輪播
+    function stopAutoPlay(){
+        // 清除自動播放計時器
+        clearInterval(autoPlayInterval);
+        // 防止重複設置重啟計時器
+        clearTimeout(restartTimeout);
+    }
+
 
     // 上一張 下一張按鈕
     document.getElementById('NextBtn').addEventListener('click', showNextImage);
