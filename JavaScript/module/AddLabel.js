@@ -262,15 +262,15 @@ export function PhotoBoxDataArray(){
 
     // 宣告 物件陣列變數
     let dataArray = [
-        { className: "one", text: "Packaging Design", Images: "../../images/work/work1.png", href: "javascript:;" },
-        { className: "two", text: "Business Card Design", Images: "../../images/work/work2.png", href: "javascript:;" },
-        { className: "three", text: "Storybook Design", Images: "../../images/work/work3.png", href: "javascript:;" },
-        { className: "four", text: "Calendar Design", Images: "../../images/work/work4.png", href: "javascript:;" },
-        { className: "five", text: "Board game Design", Images: "../../images/work/work5.png", href: "javascript:;" },
-        { className: "six", text: "Website Design", Images: "../../images/work/work6.png", href: "javascript:;" },
-        { className: "seven", text: "Stamp Design", Images: "../../images/work/work7.png", href: "javascript:;" },
-        { className: "eight", text: "APP Design", Images: "../../images/work/work8.png", href: "javascript:;" },
-        { className: "nine", text: "Premiere", Images: "../../images/work/work9.png", href: "javascript:;" }
+        { className: "one", text: "Packaging Design", Images: "images/work/work1.png", href: "javascript:;" },
+        { className: "two", text: "Business Card Design", Images: "images/work/work2.png", href: "javascript:;" },
+        { className: "three", text: "Storybook Design", Images: "images/work/work3.png", href: "javascript:;" },
+        { className: "four", text: "Calendar Design", Images: "images/work/work4.png", href: "javascript:;" },
+        { className: "five", text: "Board game Design", Images: "images/work/work5.png", href: "javascript:;" },
+        { className: "six", text: "Website Design", Images: "images/work/work6.png", href: "javascript:;" },
+        { className: "seven", text: "Stamp Design", Images: "images/work/work7.png", href: "javascript:;" },
+        { className: "eight", text: "APP Design", Images: "images/work/work8.png", href: "javascript:;" },
+        { className: "nine", text: "Premiere", Images: "images/work/work9.png", href: "javascript:;" }
     ];
     
     // for...of 迴圈，是用來遍歷可迭代物件（如陣列、字串、Map、Set等）中的每一個元素。它的語法簡潔且易於閱讀，能依序讀取每個元素。

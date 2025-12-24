@@ -120,11 +120,31 @@ export function CarouselTwo(){
         clearTimeout(restartTimeout);
     }
 
+    // 手動切換圖片後，延遲三秒重新啟動自動輪播
+    function restartAutoPlay() {
+        // 設置延遲重啟的計時器
+        restartTimeout = setTimeout( startAutoPlay, 3000 );
+    }
+    // 啟動自動播放
+    startAutoPlay();
 
-    // 上一張 下一張按鈕
-    document.getElementById('NextBtn').addEventListener('click', showNextImage);
-    document.getElementById('PrevBtn').addEventListener('click', showPreviousImage);
-
+    // 按鈕功能
+    document.getElementById( "NextBtn" ).addEventListener( "click", () => {
+        // 停止自動輪播
+        stopAutoPlay();
+        // 顯示下一張圖片
+        showNextImage();
+        // 延遲三秒重新啟動自動輪播
+        restartAutoPlay();
+    });
+    document.getElementById( "PrevBtn" ).addEventListener( "click", () => {
+        // 停止自動輪播
+        stopAutoPlay();
+        // 顯示上一張圖片
+        showPrevImage();
+        // 延遲三秒重新啟動自動輪播
+        restartAutoPlay();
+    });
 
     
     // 監聽視窗大小變化,切換圖片群組
