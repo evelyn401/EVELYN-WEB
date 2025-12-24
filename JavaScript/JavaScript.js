@@ -15,6 +15,6 @@ Years();
 PhotoBoxDataArray();
 CreateMultipleCards();
 // Carousel();
-CarouselTwo();
+// CarouselTwo();
 // SwitchTab();
 SwitchTab2();
