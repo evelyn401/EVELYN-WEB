@@ -23,4 +23,4 @@ build/
 *.log
 
 # 依專案需求可再補充其他忽略
-images/
+# images/
