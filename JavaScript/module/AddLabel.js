@@ -231,8 +231,8 @@ export function PhotoBoxForArray(){
     let photobox = document.getElementById("photobox");
 
     // 宣告li 迴圈變數
-    // let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-    // let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
+    let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+    let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
     let dataArray = [
         { className: "one", text: "Packaging Design", Images: "images/work/work1.png", href: "javascript:;" },
         { className: "two", text: "Business Card Design", Images: "images/work/work2.png", href: "javascript:;" },
@@ -250,16 +250,16 @@ export function PhotoBoxForArray(){
     // 建立 li 元素
     let li = document.createElement("li");
     // 給予 li 元素 class 屬性
-    li.className = liclass[i];
+    li.className = dataArray[i].className;
     // 在 主架構 內 動態 新增 li 元素
     photobox.appendChild(li);
 
     // 新增 a 標籤
     let a = document.createElement("a");
     // 設定 a 標籤的 href 屬性
-    a.href = "javascript:;";
+    a.href = dataArray[i].href;
     // 設定 a 標籤的文字內容
-    a.innerText = texts[i];
+    a.innerText = dataArray[i].text;
     // 在 li 內動態新增 a 元素
     li.appendChild(a);
     }
