@@ -143,24 +143,24 @@ export function CreateMultipleCards() {
     const cardsData = [
         {
             // 修改圖片路徑
-            image: "images/icons/ai.png",
+            image: "./images/icons/ai.png",
             // 修改標題
             title: "Graphic Design",
             // 修改描述文字
             description: "Illustrator、Business Card Design、Packaging Design、Board game Design" 
         },
         {
-            image: "images/icons/UIUX.png",
+            image: "./images/icons/UIUX.png",
             title: "UI&UX Design",
             description: "Website Design、APP Design、HTML、CSS、SASS、JavaScript、Figma"
         },
         {
-            image: "images/icons/pr.png",
+            image: "./images/icons/pr.png",
             title: "Video Editing",
             description: "Premiere、DaVinci Resolve、Final Cut Pro"
         },
         {
-            image: "images/icons/draw.png",
+            image: "./images/icons/draw.png",
             title: "Procreate",
             description: "Storybook Design、Calendar Design、Stamp Design"
         }
@@ -231,8 +231,19 @@ export function PhotoBoxForArray(){
     let photobox = document.getElementById("photobox");
 
     // 宣告li 迴圈變數
-    let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-    let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
+    // let liclass = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+    // let texts = ["Packaging Design", "Business Card Design", "Storybook Design", "Calendar Design", "Board game Design", "Website Design", "Stamp Design", "APP Design", "Premiere"];
+    let dataArray = [
+        { className: "one", text: "Packaging Design", Images: "./images/work/work1.png", href: "javascript:;" },
+        { className: "two", text: "Business Card Design", Images: "./images/work/work2.png", href: "javascript:;" },
+        { className: "three", text: "Storybook Design", Images: "./images/work/work3.png", href: "javascript:;" },
+        { className: "four", text: "Calendar Design", Images: "./images/work/work4.png", href: "javascript:;" },
+        { className: "five", text: "Board game Design", Images: "./images/work/work5.png", href: "javascript:;" },
+        { className: "six", text: "Website Design", Images: "./images/work/work6.png", href: "javascript:;" },
+        { className: "seven", text: "Stamp Design", Images: "./images/work/work7.png", href: "javascript:;" },
+        { className: "eight", text: "APP Design", Images: "./images/work/work8.png", href: "javascript:;" },
+        { className: "nine", text: "Premiere", Images: "./images/work/work9.png", href: "javascript:;" }
+    ];
     
     // 有迴圈
     for( let i =0; i < liclass.length ; i++ ){
