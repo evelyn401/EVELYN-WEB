@@ -1,6 +1,6 @@
 # EVELYN PORTFOLIO WEB
 
-這是一個使用Scss的響應式設計個人作品集網站，展示 Evelyn Lin 的專業技能、作品與聯絡資訊。
+這是一個使用SCSS建立的響應式設計個人作品集網站，展示 Evelyn Lin 的專業技能、作品與聯絡資訊。
 
 ## 專案簡介
 
